@@ -20,5 +20,6 @@ public class SingletonTest {
     public void test2(){
         SingletonBean singletonBean = SingletonBean.getInstance();
         singletonBean.show();
+        singletonBean.updateProperties();
     }
 }

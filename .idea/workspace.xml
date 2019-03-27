@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5b215ca-07ca-43e1-aa6d-1fd7412e34dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SingletonModel/src/main/test/SingletonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/SingletonModel/src/main/test/SingletonTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -42,13 +42,13 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1100" />
+          <entry key="java" value="1139" />
           <entry key="txt" value="10" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1100" />
+          <entry key="JAVA" value="1139" />
           <entry key="PLAIN_TEXT" value="10" />
         </counts>
       </usages-collector>
@@ -153,8 +153,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
-              <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+            <state relative-caret-position="663">
+              <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
               <folding>
                 <element signature="e#735#736#0" expanded="true" />
                 <element signature="e#793#794#0" expanded="true" />
@@ -162,6 +162,8 @@
                 <element signature="e#907#908#0" expanded="true" />
                 <element signature="e#936#937#0" expanded="true" />
                 <element signature="e#973#974#0" expanded="true" />
+                <element signature="e#1184#1185#0" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,8 +172,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/test/SingletonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+            <state relative-caret-position="418">
+              <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -335,7 +337,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/develop/android_studio_sdk/android_studio_sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553654340523" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553655818440" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -426,7 +428,7 @@
       <workItem from="1553562411022" duration="2708000" />
       <workItem from="1553566143757" duration="3927000" />
       <workItem from="1553646970729" duration="460000" />
-      <workItem from="1553647813124" duration="5191000" />
+      <workItem from="1553647813124" duration="5997000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式测试示例添加">
       <created>1553648983296</created>
@@ -442,13 +444,17 @@
       <option name="project" value="LOCAL" />
       <updated>1553653521479</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="单例模式测试示例添加">
+      <created>1553654386785</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1553654386785</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingletonTest_test1 - 2019.03.27 at 09h 07m 14s.xml">
-      <configuration name="SingletonTest.test1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SingletonTest_test1 - 2019.03.27 at 09h 13m 56s.xml">
       <configuration name="SingletonTest.test1" configurationId="JUnit" />
     </history-entry>
@@ -476,9 +482,12 @@
     <history-entry file="SingletonTest_test1 - 2019.03.27 at 09h 30m 41s.xml">
       <configuration name="SingletonTest.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SingletonTest_test2 - 2019.03.27 at 10h 39m 02s.xml">
+      <configuration name="SingletonTest.test2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12286000" />
+    <option name="totallyTimeSpent" value="13092000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -495,7 +504,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.13436124" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.42951542" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35572687" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -505,7 +514,7 @@
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.23017621" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.109030835" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.07599119" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -670,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+        <state relative-caret-position="663">
+          <caret line="56" column="50" selection-start-line="56" selection-start-column="50" selection-end-line="56" selection-end-column="50" />
           <folding>
             <element signature="e#735#736#0" expanded="true" />
             <element signature="e#793#794#0" expanded="true" />
@@ -679,14 +688,16 @@
             <element signature="e#907#908#0" expanded="true" />
             <element signature="e#936#937#0" expanded="true" />
             <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/test/SingletonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        <state relative-caret-position="418">
+          <caret line="22" column="41" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

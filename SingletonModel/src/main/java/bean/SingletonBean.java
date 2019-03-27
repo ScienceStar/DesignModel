@@ -1,5 +1,7 @@
 package bean;
 
+import java.util.Vector;
+
 /**
  * @program: designModel
  * @description: 单例实例-基于内部类实现
@@ -9,6 +11,8 @@ package bean;
 public class SingletonBean {
 
     private static SingletonBean singletonBean = null;
+
+    private Vector properties = null;
 
     private SingletonBean() {
     }
@@ -42,5 +46,19 @@ public class SingletonBean {
 
     public void show(){
         System.out.println("基于内部类来实现单例.................");
+    }
+
+    public void updateProperties() {
+        SingletonBean shadow = new SingletonBean();
+        properties = shadow.getProperties();
+    }
+
+    public Vector getProperties() {
+        System.out.println("获取实例.................");
+        return properties;
+    }
+
+    public void setProperties(Vector properties) {
+        this.properties = properties;
     }
 }
