@@ -11,9 +11,7 @@ public class SingletonTest {
 
     @Test
     public void test1(){
-        Singleton singleton = Singleton.getInstance();
-        Singleton singleton1 = Singleton.getInstance();
-        singleton.show();
-        singleton1.show();
+        Singleton si = Singleton.getInstance();
+        si.show();
     }
 }
