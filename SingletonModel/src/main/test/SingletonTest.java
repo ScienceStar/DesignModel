@@ -2,6 +2,8 @@ import bean.Singleton;
 import bean.SingletonBean;
 import org.junit.Test;
 
+import java.io.PrintStream;
+
 /**
  * @program: designModel
  * @description: 单例实例测试
@@ -10,10 +12,12 @@ import org.junit.Test;
  */
 public class SingletonTest {
 
+    private PrintStream printStream = System.out;
     @Test
     public void test1(){
         Singleton si = Singleton.getInstance();
         si.show();
+        printStream.println("hello");
     }
 
     @Test
