@@ -1,4 +1,5 @@
 import bean.Singleton;
+import bean.SingletonBean;
 import org.junit.Test;
 
 /**
@@ -13,5 +14,11 @@ public class SingletonTest {
     public void test1(){
         Singleton si = Singleton.getInstance();
         si.show();
+    }
+
+    @Test
+    public void test2(){
+        SingletonBean singletonBean = SingletonBean.getInstance();
+        singletonBean.show();
     }
 }
