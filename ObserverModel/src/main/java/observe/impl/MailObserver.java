@@ -11,6 +11,6 @@ import observe.Observer;
 public class MailObserver implements Observer {
     @Override
     public void update(double money) {
-        System.out.println("邮件账户资金发生变动:"+money );
+        System.out.println("邮件账户资金发生变动:"+money*0.8 );
     }
 }

@@ -11,6 +11,6 @@ import observe.Observer;
 public class SmsObserver implements Observer {
     @Override
     public void update(double money) {
-        System.out.println("短信资金发生变动:"+money);
+        System.out.println("短信资金发生变动:"+(money+0.03*4));
     }
 }

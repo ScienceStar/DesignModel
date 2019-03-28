@@ -45,6 +45,11 @@ public class AccountSubject extends AbstractSubject {
         if (observerList.size( ) > 0) {
             for (Observer observer : observerList) {
                 observer.update(money);
+                try {
+                    Thread.sleep(1000);
+                } catch (InterruptedException e) {
+                    e.printStackTrace( );
+                }
             }
         }
     }
