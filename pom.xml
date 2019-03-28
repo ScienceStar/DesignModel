@@ -10,6 +10,8 @@
     <modules>
         <module>SingletonModel</module>
         <module>BuildModel</module>
+        <module>StrategyModel</module>
+        <module>ObserverModel</module>
     </modules>
     <packaging>pom</packaging>
 
