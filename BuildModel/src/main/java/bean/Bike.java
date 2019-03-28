@@ -1,7 +1,7 @@
 package bean;
 
 /**
- * @program: designModel
+ * @program: designModel.uml
  * @description: 自行车实体类
  * @author: liuxincheng
  * @create: 2019-03-28 09:25

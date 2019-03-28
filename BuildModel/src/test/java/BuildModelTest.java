@@ -6,7 +6,7 @@ import enginer.EngineeringDepartment;
 import org.junit.Test;
 
 /**
- * @program: designModel
+ * @program: designModel.uml
  * @description: 建造者模式测试
  * @author: liuxincheng
  * @create: 2019-03-28 09:43

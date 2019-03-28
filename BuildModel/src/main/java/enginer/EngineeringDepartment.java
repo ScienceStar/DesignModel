@@ -3,7 +3,7 @@ package enginer;
 import buildInterface.BikeBuilder;
 
 /**
- * @program: designModel
+ * @program: designModel.uml
  * @description: 摩拜工程部
  * @author: liuxincheng
  * @create: 2019-03-28 09:39
