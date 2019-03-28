@@ -1,5 +1,5 @@
-import factory.SendFactory;
-import factory.SendSmsFactory;
+import buildInterface.SendFactory;
+import buildInterface.SendSmsFactory;
 import inter.Provider;
 import inter.Sender;
 import org.junit.Test;

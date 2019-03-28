@@ -1,4 +1,4 @@
-package factory;
+package buildInterface;
 
 import impl.SmsSender;
 import inter.Provider;
