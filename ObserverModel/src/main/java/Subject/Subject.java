@@ -1,6 +1,7 @@
 package Subject;
 
-import java.util.Observer;
+
+import observe.Observer;
 
 /***
  * @Title: Administrator
