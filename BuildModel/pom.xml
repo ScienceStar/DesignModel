@@ -9,7 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <description>建造者模式</description>
     <artifactId>BuildModel</artifactId>
-
-
 </project>

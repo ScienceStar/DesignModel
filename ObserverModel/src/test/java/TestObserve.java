@@ -28,6 +28,6 @@ public class TestObserve {
         subject.registerObserver(mailObserver);
         subject.registerObserver(smsObserver);
 
-        subject.changeAccount(7.8);
+        subject.changeAccount(12);
     }
 }

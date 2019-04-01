@@ -9,6 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <description>观察者模式</description>
     <artifactId>ObserverModel</artifactId>
 
 

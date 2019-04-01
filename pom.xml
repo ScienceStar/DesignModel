@@ -12,6 +12,7 @@
         <module>BuildModel</module>
         <module>StrategyModel</module>
         <module>ObserverModel</module>
+        <module>DecoratorModel</module>
     </modules>
     <packaging>pom</packaging>
 
