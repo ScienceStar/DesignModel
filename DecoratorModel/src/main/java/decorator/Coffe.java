@@ -19,8 +19,8 @@ public class Coffe extends CondimentDecorator {
     }
 
     @Override
-    public String getDescription() {
-        return "咖啡"+tea.getDescrption();
+    public String getDescrption() {
+        return "咖啡,"+tea.getDescrption();
     }
 
     @Override

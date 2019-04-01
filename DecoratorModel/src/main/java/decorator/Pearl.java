@@ -19,7 +19,7 @@ public class Pearl extends CondimentDecorator {
     }
 
     @Override
-    public String getDescription() {
+    public String getDescrption() {
         return "珍珠,"+tea.getDescrption();
     }
 

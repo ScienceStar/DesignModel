@@ -11,5 +11,5 @@ import component.Tea;
 public abstract class CondimentDecorator extends Tea {
 
     //所有组件必须要返回的
-    public abstract String getDescription();
+    public abstract String getDescrption();
 }
