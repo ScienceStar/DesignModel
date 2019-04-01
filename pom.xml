@@ -13,6 +13,7 @@
         <module>StrategyModel</module>
         <module>ObserverModel</module>
         <module>DecoratorModel</module>
+        <module>FactoryModel</module>
     </modules>
     <packaging>pom</packaging>
 

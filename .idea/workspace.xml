@@ -2,10 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5b215ca-07ca-43e1-aa6d-1fd7412e34dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/FactoryModel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryModel/src/main/java/creator/ShaobingStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/CSShaobingStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/GZShaobingStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSBeefShaobing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSOnionShaobing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZBeefShaobing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZOnionShaobing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryModel/src/main/java/product/Shaobing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FactoryModel/src/test/java/TestFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DecoratorModel/src/main/java/component/impl/CondimentDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/DecoratorModel/src/main/java/component/impl/CondimentDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DecoratorModel/src/main/java/decorator/Coffe.java" beforeDir="false" afterPath="$PROJECT_DIR$/DecoratorModel/src/main/java/decorator/Coffe.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DecoratorModel/src/main/java/decorator/Pearl.java" beforeDir="false" afterPath="$PROJECT_DIR$/DecoratorModel/src/main/java/decorator/Pearl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecoratorModel/src/test/java/TestDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/DecoratorModel/src/test/java/TestDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/impl/SmsSender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/impl/SmsSender.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/SingletonModel/target/" />
@@ -13,6 +25,7 @@
     <ignored path="$PROJECT_DIR$/StrategyModel/target/" />
     <ignored path="$PROJECT_DIR$/ObserverModel/target/" />
     <ignored path="$PROJECT_DIR$/DecoratorModel/target/" />
+    <ignored path="$PROJECT_DIR$/FactoryModel/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,46 +36,47 @@
     <session id="-1572282484">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="7" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.4" value="3" />
           <entry key="project.open.time.58" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.67" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="39" />
+          <entry key="java" value="56" />
           <entry key="md" value="3" />
-          <entry key="xml" value="8" />
+          <entry key="xml" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="39" />
+          <entry key="JAVA" value="56" />
           <entry key="Markdown" value="3" />
-          <entry key="XML" value="8" />
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="2383" />
+          <entry key="java" value="2709" />
           <entry key="md" value="10" />
           <entry key="txt" value="48" />
-          <entry key="xml" value="28" />
+          <entry key="xml" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2383" />
+          <entry key="JAVA" value="2709" />
           <entry key="Markdown" value="10" />
           <entry key="PLAIN_TEXT" value="50" />
-          <entry key="XML" value="28" />
+          <entry key="XML" value="37" />
         </counts>
       </usages-collector>
     </session>
@@ -70,120 +84,105 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ObserverModel/src/test/java/TestObserve.java">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
+            <state relative-caret-position="285">
+              <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/ShaobingStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="456">
+              <caret line="24" column="57" selection-end-line="25" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/product/Shaobing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#554#555#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
+                <element signature="e#659#660#0" expanded="true" />
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#762#763#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BuildModel/pom.xml">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZOnionShaobing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZBeefShaobing.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="209">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+              <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ObserverModel/pom.xml">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSOnionShaobing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="285">
+              <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SingletonModel/pom.xml">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSBeefShaobing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="44" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+            <state relative-caret-position="266">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DecoratorModel/src/main/java/component/Tea.java">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/GZShaobingStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="17" column="31" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="31" />
-              <folding>
-                <element signature="e#305#306#0" expanded="true" />
-                <element signature="e#338#339#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DecoratorModel/src/main/java/component/impl/CondimentDecorator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="40" selection-start-line="13" selection-start-column="40" selection-end-line="13" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DecoratorModel/src/main/java/component/impl/MilkTea.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-              <folding>
-                <element signature="e#213#214#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#260#261#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DecoratorModel/src/main/java/decorator/Pearl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="551">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#339#340#0" expanded="true" />
-                <element signature="e#390#391#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DecoratorModel/src/main/java/decorator/Coffe.java">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/CSShaobingStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+            <state relative-caret-position="532">
+              <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#301#302#0" expanded="true" />
-                <element signature="e#331#332#0" expanded="true" />
-                <element signature="e#382#383#0" expanded="true" />
-                <element signature="e#409#410#0" expanded="true" />
-                <element signature="e#343#344#0" expanded="true" />
-                <element signature="e#367#368#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/DecoratorModel/src/test/java/TestDecorator.java">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/test/java/TestFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+            <state relative-caret-position="285">
+              <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -214,8 +213,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/impl/SmsSender.java" />
-        <option value="$PROJECT_DIR$/src/main/java/factory/SendFactory.java" />
         <option value="$PROJECT_DIR$/src/main/java/inter/Provider.java" />
         <option value="$PROJECT_DIR$/src/main/java/impl/MailSender.java" />
         <option value="$PROJECT_DIR$/src/main/java/factory/SendMailFactory.java" />
@@ -251,10 +248,22 @@
         <option value="$PROJECT_DIR$/SingletonModel/pom.xml" />
         <option value="$PROJECT_DIR$/DecoratorModel/src/main/java/component/impl/MilkTea.java" />
         <option value="$PROJECT_DIR$/DecoratorModel/src/main/java/component/Tea.java" />
+        <option value="$PROJECT_DIR$/DecoratorModel/src/test/java/TestDecorator.java" />
         <option value="$PROJECT_DIR$/DecoratorModel/src/main/java/component/impl/CondimentDecorator.java" />
         <option value="$PROJECT_DIR$/DecoratorModel/src/main/java/decorator/Coffe.java" />
         <option value="$PROJECT_DIR$/DecoratorModel/src/main/java/decorator/Pearl.java" />
-        <option value="$PROJECT_DIR$/DecoratorModel/src/test/java/TestDecorator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/impl/SmsSender.java" />
+        <option value="$PROJECT_DIR$/FactoryModel/pom.xml" />
+        <option value="$PROJECT_DIR$/FactoryModel/src/main/java/product/Shaobing.java" />
+        <option value="$PROJECT_DIR$/FactoryModel/src/main/java/creator/ShaobingStore.java" />
+        <option value="$PROJECT_DIR$/FactoryModel/src/main/java/product/impl/GZOnionShaobing.java" />
+        <option value="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZOnionShaobing.java" />
+        <option value="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZBeefShaobing.java" />
+        <option value="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSOnionShaobing.java" />
+        <option value="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSBeefShaobing.java" />
+        <option value="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/GZShaobingStore.java" />
+        <option value="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/CSShaobingStore.java" />
+        <option value="$PROJECT_DIR$/FactoryModel/src/test/java/TestFactory.java" />
       </list>
     </option>
   </component>
@@ -272,10 +281,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="336" />
-    <option name="y" value="-18" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="width" value="1305" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -286,6 +293,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,157 +305,71 @@
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="creator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="CondimentDecorator" type="1a9f42e2:ClassTreeNode" />
+              <item name="creator" type="462c0819:PsiDirectoryNode" />
+              <item name="concreteCreator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="MilkTea" type="1a9f42e2:ClassTreeNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="component" type="462c0819:PsiDirectoryNode" />
-              <item name="Tea" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="Coffe" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="decorator" type="462c0819:PsiDirectoryNode" />
-              <item name="Pearl" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="TestDecorator" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
@@ -456,16 +379,14 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/develop/android_studio_sdk/android_studio_sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554087106873" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../nfc/zhengtyun-nfc" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554100085517" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scan_cabinet_server" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -494,12 +415,12 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestDecorator.testDecorator">
-    <configuration name="BuildModelTest.buildModelDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BuildModel" />
+  <component name="RunManager" selected="JUnit.TestFactory.testFactory">
+    <configuration name="DesignModelTest.designTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="designModel" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BuildModelTest" />
-      <option name="METHOD_NAME" value="buildModelDemo" />
+      <option name="MAIN_CLASS_NAME" value="DesignModelTest" />
+      <option name="METHOD_NAME" value="designTest2" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -535,11 +456,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestObserve.testChangeAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ObserverModel" />
+    <configuration name="TestFactory.testFactory" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="FactoryModel" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestObserve" />
-      <option name="METHOD_NAME" value="testChangeAccount" />
+      <option name="MAIN_CLASS_NAME" value="TestFactory" />
+      <option name="METHOD_NAME" value="testFactory" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -548,17 +469,17 @@
     <list>
       <item itemvalue="JUnit.SingletonTest.test1" />
       <item itemvalue="JUnit.SingletonTest.test2" />
-      <item itemvalue="JUnit.BuildModelTest.buildModelDemo" />
-      <item itemvalue="JUnit.TestObserve.testChangeAccount" />
       <item itemvalue="JUnit.TestDecorator.testDecorator" />
+      <item itemvalue="JUnit.DesignModelTest.designTest2" />
+      <item itemvalue="JUnit.TestFactory.testFactory" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestFactory.testFactory" />
+        <item itemvalue="JUnit.DesignModelTest.designTest2" />
         <item itemvalue="JUnit.TestDecorator.testDecorator" />
         <item itemvalue="JUnit.SingletonTest.test2" />
         <item itemvalue="JUnit.SingletonTest.test1" />
-        <item itemvalue="JUnit.TestObserve.testChangeAccount" />
-        <item itemvalue="JUnit.BuildModelTest.buildModelDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -579,7 +500,8 @@
       <workItem from="1553647813124" duration="9157000" />
       <workItem from="1553736033826" duration="12175000" />
       <workItem from="1553820494218" duration="4550000" />
-      <workItem from="1554082082477" duration="4525000" />
+      <workItem from="1554082082477" duration="6677000" />
+      <workItem from="1554088233067" duration="3621000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式测试示例添加">
       <created>1553648983296</created>
@@ -679,25 +601,17 @@
       <option name="project" value="LOCAL" />
       <updated>1554086382748</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="装饰者模式">
+      <created>1554087174435</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554087174435</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingletonTest_test1 - 2019.03.29 at 13h 57m 01s.xml">
-      <configuration name="SingletonTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingletonTest_test2 - 2019.03.29 at 13h 57m 07s.xml">
-      <configuration name="SingletonTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 10h 20m 35s.xml">
-      <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 10h 24m 02s.xml">
-      <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 10h 27m 23s.xml">
-      <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 10h 30m 40s.xml">
       <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
     </history-entry>
@@ -713,15 +627,30 @@
     <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 10h 42m 36s.xml">
       <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 10h 51m 48s.xml">
+      <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 10h 58m 46s.xml">
+      <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 11h 42m 59s.xml">
+      <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 13h 35m 39s.xml">
+      <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DesignModelTest_designTest2 - 2019.04.01 at 14h 02m 49s.xml">
+      <configuration name="DesignModelTest.designTest2" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37502000" />
+    <option name="totallyTimeSpent" value="43275000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21695095" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1977612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -732,8 +661,8 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.26321587" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.2753304" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.08259912" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2753304" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -742,7 +671,7 @@
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.23017621" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.23127754" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.15748899" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -818,69 +747,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/inter/Sender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/impl/MailSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="41" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/buildInterface/SendMailFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/buildInterface/SendSmsFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/inter/Provider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/impl/SmsSender.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="58" selection-start-line="13" selection-start-column="58" selection-end-line="13" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/buildInterface/SendFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/test/DesignModelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="295">
@@ -962,9 +828,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="38" selection-start-line="12" selection-start-column="38" selection-end-line="12" selection-end-column="38" />
-          <folding>
-            <element signature="e#318#319#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -972,9 +835,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="741">
           <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -996,9 +856,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1006,9 +863,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1023,9 +877,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
           <caret line="25" column="29" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1036,20 +887,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BuildModel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ObserverModel/src/test/java/TestObserve.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="323">
           <caret line="22" column="49" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildModel/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1069,25 +920,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DecoratorModel/src/main/java/component/impl/MilkTea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
+        <state relative-caret-position="228">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding>
             <element signature="e#213#214#0" expanded="true" />
             <element signature="e#244#245#0" expanded="true" />
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#260#261#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DecoratorModel/src/main/java/component/Tea.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="31" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="31" />
-          <folding>
-            <element signature="e#305#306#0" expanded="true" />
-            <element signature="e#338#339#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -1100,38 +945,187 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/DecoratorModel/src/main/java/decorator/Coffe.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="399">
+          <caret line="21" column="31" lean-forward="true" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#301#302#0" expanded="true" />
             <element signature="e#331#332#0" expanded="true" />
             <element signature="e#382#383#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#343#344#0" expanded="true" />
-            <element signature="e#367#368#0" expanded="true" />
+            <element signature="e#430#431#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DecoratorModel/src/main/java/decorator/Pearl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+        <state relative-caret-position="399">
+          <caret line="21" column="31" selection-start-line="21" selection-start-column="31" selection-end-line="21" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#309#310#0" expanded="true" />
             <element signature="e#339#340#0" expanded="true" />
             <element signature="e#390#391#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#438#439#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/DecoratorModel/src/test/java/TestDecorator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" column="31" lean-forward="true" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        <state relative-caret-position="380">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/buildInterface/SendFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="21" column="55" selection-start-line="21" selection-start-column="55" selection-end-line="21" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/buildInterface/SendMailFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding>
+            <element signature="e#297#298#0" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/buildInterface/SendSmsFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+          <folding>
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impl/SmsSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="13" column="36" selection-start-line="13" selection-start-column="36" selection-end-line="13" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/impl/MailSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="41" selection-start-line="10" selection-start-column="35" selection-end-line="10" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inter/Provider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/inter/Sender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/test/DesignModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="24" column="43" selection-start-line="24" selection-start-column="43" selection-end-line="24" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="10" lean-forward="true" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/ShaobingStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="24" column="57" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/product/Shaobing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="15" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding>
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#554#555#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#762#763#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZOnionShaobing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZBeefShaobing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSOnionShaobing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="22" selection-start-line="15" selection-start-column="22" selection-end-line="15" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSBeefShaobing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/GZShaobingStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/CSShaobingStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="23" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/test/java/TestFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

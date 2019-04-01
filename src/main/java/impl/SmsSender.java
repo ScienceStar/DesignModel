@@ -11,6 +11,6 @@ import inter.Sender;
 public class SmsSender implements Sender {
     @Override
     public void send() {
-        System.out.println("我是短信发送.......................!" );
+        System.out.println("我是短信发送装置.......................!" );
     }
 }

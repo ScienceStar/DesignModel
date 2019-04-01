@@ -27,6 +27,8 @@ public class TestDecorator {
         //加上一份咖啡调料
         tea2 = new Coffe(tea2);
 
+        tea2 = new Pearl(tea2);
+
         //打印加了调料的奶茶
         System.out.println(tea2.getDescrption( ) + " 价格为：￥" + tea2.getTeaCost( ));
     }
