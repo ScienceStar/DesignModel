@@ -14,5 +14,6 @@ public class CSOnionShaobing extends Shaobing {
         name = "长沙洋葱烧饼";
         //配料
         sauce = "辣椒酱";
+        dough="东北小麦粉";
     }
 }

@@ -14,5 +14,7 @@ public class GZOnionShaobing extends Shaobing {
         name = "广州的洋葱烧饼";
         //配料
         sauce = "番茄酱";
+        //面粉
+        dough="东南亚小麦粉";
     }
 }

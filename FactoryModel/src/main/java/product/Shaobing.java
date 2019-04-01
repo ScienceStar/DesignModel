@@ -18,7 +18,7 @@ public abstract class Shaobing {
     public void prepare(){
         System.out.println("Prepareing " + name);
         //和面
-        System.out.println("Kneading dough...");
+        System.out.println("Kneading dough..."+dough);
         //加配料
         System.out.println("加配料：" + sauce);
     }

@@ -14,5 +14,6 @@ public class GZBeefShaobing extends Shaobing {
         name = "广州的牛肉烧饼";
         //配料
         sauce = "番茄酱";
+        dough="非洲黑面粉";
     }
 }
