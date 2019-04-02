@@ -21,6 +21,7 @@ public class OnionShaobing extends Shaobing {
     @Override
     public void prepare() {
         System.out.println("洋葱烧饼开始准备原材料");
+        name="洋葱烧饼";
         dough = ingredientFactory.createDough();
         sauce = ingredientFactory.createSauce();
         vegetable = ingredientFactory.createVegetable();

@@ -21,16 +21,16 @@ public abstract class Shaobing {
 
     //烤烧饼
     public void bake(){
-        System.out.println("Bake for 25 minutes at 350C");
+        System.out.println("开始烘烤................");
     }
 
     //切面团
     public void cut(){
-        System.out.println("Cutting the dough into fit slices");
+        System.out.println("开始切面团...............");
     }
 
     //打包
     public void box(){
-        System.out.println("Place shaobing into official box");
+        System.out.println("打包.....................");
     }
 }

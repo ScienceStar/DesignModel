@@ -1,3 +1,4 @@
+import inter.bean.Shaobing;
 import inter.story.ShaobingStore;
 import inter.story.impl.GZShaobingStore;
 import org.junit.Test;
@@ -15,6 +16,7 @@ public class TestIngredientFactory {
         //在广州开一个烧饼店
         ShaobingStore gzStore = new GZShaobingStore( );
         //售出一个洋葱烧饼
-        gzStore.orderShaobing("onion");
+        Shaobing shaobing = gzStore.orderShaobing("onion");
+        System.out.println(shaobing.name);
     }
 }
