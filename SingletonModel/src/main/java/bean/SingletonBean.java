@@ -15,6 +15,9 @@ public class SingletonBean {
     private Vector properties = null;
 
     private SingletonBean() {
+        if(singletonBean == null){
+            singletonBean = new SingletonBean();
+        }
     }
 
     /***  
