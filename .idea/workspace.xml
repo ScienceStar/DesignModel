@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5b215ca-07ca-43e1-aa6d-1fd7412e34dd" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/CSShaobingStore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/bean/Shaobing.java" beforeDir="false" afterPath="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/bean/Shaobing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/OnionShaobing.java" beforeDir="false" afterPath="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/OnionShaobing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IngredientFactory/src/test/java/TestIngredientFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/IngredientFactory/src/test/java/TestIngredientFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/GZShaobingStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/GZShaobingStore.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/SingletonModel/target/" />
@@ -38,7 +37,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="74" />
+          <entry key="java" value="82" />
           <entry key="md" value="3" />
           <entry key="xml" value="10" />
         </counts>
@@ -46,7 +45,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="74" />
+          <entry key="JAVA" value="82" />
           <entry key="Markdown" value="3" />
           <entry key="XML" value="10" />
         </counts>
@@ -54,7 +53,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="3125" />
+          <entry key="java" value="3158" />
           <entry key="md" value="10" />
           <entry key="txt" value="57" />
           <entry key="xml" value="37" />
@@ -62,7 +61,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3125" />
+          <entry key="JAVA" value="3158" />
           <entry key="Markdown" value="10" />
           <entry key="PLAIN_TEXT" value="59" />
           <entry key="XML" value="37" />
@@ -73,28 +72,32 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/ShaobingStore.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/ShaobingStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+            <state relative-caret-position="266">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/factory/IngredientFactory.java">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/ShaobingStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+            <state relative-caret-position="304">
+              <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/bean/Shaobing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="e#402#403#0" expanded="true" />
+                <element signature="e#460#461#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -102,8 +105,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/GZShaobingStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+            <state relative-caret-position="323">
+              <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="26" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,10 +115,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/IngredientFactory/src/test/java/TestIngredientFactory.java">
+        <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/CSShaobingStore.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+            <state relative-caret-position="475">
+              <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,15 +127,30 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/Onion.java">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/product/Shaobing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
+            <state relative-caret-position="418">
+              <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSBeefShaobing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/GZShaobingStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
               <folding>
-                <element signature="e#224#225#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -141,50 +159,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/factory/ShaobingIngredientFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="313">
+              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#314#315#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#519#520#0" expanded="true" />
+                <element signature="e#548#549#0" expanded="true" />
                 <element signature="e#604#605#0" expanded="true" />
-                <element signature="e#640#641#0" expanded="true" />
-                <element signature="e#545#546#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#624#625#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/DBDough.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-              <folding>
-                <element signature="e#222#223#0" expanded="true" />
-                <element signature="e#278#279#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/bean/Shaobing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="e#402#403#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#501#502#0" expanded="true" />
-                <element signature="e#572#573#0" expanded="true" />
-                <element signature="e#605#606#0" expanded="true" />
-                <element signature="e#675#676#0" expanded="true" />
+                <element signature="e#642#643#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -193,8 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/OnionShaobing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+            <state relative-caret-position="399">
+              <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#247#248#0" expanded="true" />
@@ -227,7 +208,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ObserverModel/src/main/java/observe/Observe.java" />
         <option value="$PROJECT_DIR$/ObserverModel/src/main/java/observe/impl/APPObserve.java" />
         <option value="$PROJECT_DIR$/ObserverModel/src/main/java/observe/impl/APPObserver.java" />
         <option value="$PROJECT_DIR$/ObserverModel/src/main/java/observe/Observer.java" />
@@ -273,11 +253,12 @@
         <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/TomatoSauce.java" />
         <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/Onion.java" />
         <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/factory/ShaobingIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/GZShaobingStore.java" />
         <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/ShaobingStore.java" />
         <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/bean/Shaobing.java" />
         <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/OnionShaobing.java" />
         <option value="$PROJECT_DIR$/IngredientFactory/src/test/java/TestIngredientFactory.java" />
+        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/GZShaobingStore.java" />
+        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/CSShaobingStore.java" />
       </list>
     </option>
   </component>
@@ -356,6 +337,46 @@
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="creator" type="462c0819:PsiDirectoryNode" />
+              <item name="concreteCreator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="creator" type="462c0819:PsiDirectoryNode" />
+              <item name="concreteCreator" type="462c0819:PsiDirectoryNode" />
+              <item name="GZShaobingStore" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="creator" type="462c0819:PsiDirectoryNode" />
+              <item name="concreteProduct" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="product" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
               <item name="IngredientFactory" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -397,6 +418,17 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="inter" type="462c0819:PsiDirectoryNode" />
               <item name="bean" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="IngredientFactory" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="inter" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
+              <item name="Shaobing" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
@@ -428,18 +460,6 @@
               <item name="inter" type="462c0819:PsiDirectoryNode" />
               <item name="impl" type="462c0819:PsiDirectoryNode" />
               <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="IngredientFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="inter" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="DBDough" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
@@ -498,21 +518,6 @@
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="IngredientFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="IngredientFactory" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
@@ -525,7 +530,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/develop/android_studio_sdk/android_studio_sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554169200106" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554170406403" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -646,7 +651,7 @@
       <workItem from="1553820494218" duration="4550000" />
       <workItem from="1554082082477" duration="6677000" />
       <workItem from="1554088233067" duration="6297000" />
-      <workItem from="1554165097741" duration="3664000" />
+      <workItem from="1554165097741" duration="4879000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式测试示例添加">
       <created>1553648983296</created>
@@ -774,16 +779,17 @@
       <option name="project" value="LOCAL" />
       <updated>1554168887175</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="抽象工厂模式">
+      <created>1554169242442</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1554169242442</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 10h 42m 36s.xml">
-      <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 10h 51m 48s.xml">
-      <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestDecorator_testDecorator - 2019.04.01 at 10h 58m 46s.xml">
       <configuration name="TestDecorator.testDecorator" configurationId="JUnit" />
     </history-entry>
@@ -808,15 +814,21 @@
     <history-entry file="TestIngredientFactory_test1 - 2019.04.02 at 09h 26m 29s.xml">
       <configuration name="TestIngredientFactory.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestIngredientFactory_test1 - 2019.04.02 at 09h 40m 02s.xml">
+      <configuration name="TestIngredientFactory.test1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestIngredientFactory_test1 - 2019.04.02 at 09h 51m 59s.xml">
+      <configuration name="TestIngredientFactory.test1" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49615000" />
+    <option name="totallyTimeSpent" value="50830000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19989339" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2238806" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -827,7 +839,7 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.3171806" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" visible="true" weight="0.21035242" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.25220263" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -837,7 +849,7 @@
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.23017621" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.08480176" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.06938326" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.50053304" side_tool="true" weight="0.25770926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -915,13 +927,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/java/bean/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/bean/Bike.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
@@ -1097,13 +1102,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/product/Shaobing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZOnionShaobing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="323">
@@ -1111,34 +1109,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZBeefShaobing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSOnionShaobing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSBeefShaobing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/GZShaobingStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,50 +1187,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/Onion.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
-          <folding>
-            <element signature="e#224#225#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/ShaobingStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/factory/IngredientFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/factory/ShaobingIngredientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#314#315#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#477#478#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-            <element signature="e#604#605#0" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#545#546#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#624#625#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1271,35 +1205,65 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/bean/Shaobing.java">
+    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/Onion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        <state relative-caret-position="342">
+          <caret line="18" column="18" selection-start-line="18" selection-start-column="18" selection-end-line="18" selection-end-column="18" />
           <folding>
-            <element signature="e#402#403#0" expanded="true" />
-            <element signature="e#467#468#0" expanded="true" />
-            <element signature="e#501#502#0" expanded="true" />
-            <element signature="e#572#573#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#261#262#0" expanded="true" />
+            <element signature="e#246#247#0" expanded="true" />
+            <element signature="e#273#274#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/GZShaobingStore.java">
+    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/test/java/TestIngredientFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
+        <state relative-caret-position="323">
+          <caret line="17" column="18" lean-forward="true" selection-start-line="17" selection-start-column="18" selection-end-line="17" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZBeefShaobing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSBeefShaobing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/product/Shaobing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/bean/Shaobing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#402#403#0" expanded="true" />
+            <element signature="e#460#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/OnionShaobing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="20" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
+        <state relative-caret-position="399">
+          <caret line="21" column="16" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#247#248#0" expanded="true" />
@@ -1308,17 +1272,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/ShaobingStore.java">
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/ShaobingStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="20" lean-forward="true" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        <state relative-caret-position="304">
+          <caret line="16" column="24" lean-forward="true" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/test/java/TestIngredientFactory.java">
+    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/GZShaobingStore.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="40" selection-start-line="19" selection-start-column="40" selection-end-line="19" selection-end-column="40" />
+        <state relative-caret-position="313">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/factory/ShaobingIngredientFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/ShaobingStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/GZShaobingStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="26" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/CSShaobingStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="25" column="24" selection-start-line="25" selection-start-column="24" selection-end-line="25" selection-end-column="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

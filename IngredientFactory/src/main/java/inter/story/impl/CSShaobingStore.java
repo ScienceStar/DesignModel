@@ -6,12 +6,11 @@ import inter.story.ShaobingStore;
 
 /**
  * @program: designModel
- * @description: 广州烧饼店
+ * @description: 长沙烧饼店
  * @author: liuxincheng
- * @create: 2019-04-02 09:23
+ * @create: 2019-04-02 09:59
  */
-public class GZShaobingStore extends ShaobingStore {
-
+public class CSShaobingStore extends ShaobingStore {
 
     @Override
     public Shaobing createShaobing(String type) {
@@ -21,8 +20,8 @@ public class GZShaobingStore extends ShaobingStore {
             case "onion":
                 shaobing = new OnionShaobing();
                 break;
-                default:
-                    break;
+            default:
+                break;
         }
         return shaobing;
     }
