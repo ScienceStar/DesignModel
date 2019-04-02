@@ -2,6 +2,8 @@ package inter.impl;
 
 import inter.Bird;
 
+import java.rmi.Remote;
+
 /**
  * @program: designModel
  * @description: 鹦鹉实现类

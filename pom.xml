@@ -16,6 +16,7 @@
         <module>FactoryModel</module>
         <module>IngredientFactory</module>
         <module>AdapterModel</module>
+        <module>ProxyModel</module>
     </modules>
     <packaging>pom</packaging>
 

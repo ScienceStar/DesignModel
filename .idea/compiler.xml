@@ -12,6 +12,7 @@
         <module name="FactoryModel" />
         <module name="IngredientFactory" />
         <module name="ObserverModel" />
+        <module name="ProxyModel" />
         <module name="SingletonModel" />
         <module name="StrategyModel" />
       </profile>
