@@ -17,6 +17,6 @@ public class ProxyClient {
 
     public static void main(String[] args) throws RemoteException, NotBoundException, MalformedURLException {
         MyRemote proxy = new Proxy();
-        System.out.println(proxy.request(100));
+        System.out.println(proxy.request(80));
     }
 }

@@ -2,9 +2,7 @@ package inter.impl;
 
 import inter.MyRemote;
 
-import java.net.MalformedURLException;
 import java.rmi.Naming;
-import java.rmi.NotBoundException;
 import java.rmi.RemoteException;
 import java.rmi.registry.LocateRegistry;
 import java.rmi.server.UnicastRemoteObject;
@@ -34,7 +32,7 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
             // 注册远程访问接口
             LocateRegistry.createRegistry(8888);
 
-            // 注册远程对象，注册名为RemoteHello，代理访问时指定这个名称就可以找到本类，
+            // 注册远程对象，注册名为RemoteHello，代理访问时指定这个名称就可以找到本类
             Naming.rebind("rmi://localhost:8888/RemoteHello",service);
             System.out.println("远程对象创建成功.......................");
         } catch (Exception e) {
