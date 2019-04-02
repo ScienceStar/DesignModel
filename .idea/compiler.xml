@@ -9,6 +9,7 @@
         <module name="BuildModel" />
         <module name="DecoratorModel" />
         <module name="FactoryModel" />
+        <module name="IngredientFactory" />
         <module name="ObserverModel" />
         <module name="SingletonModel" />
         <module name="StrategyModel" />

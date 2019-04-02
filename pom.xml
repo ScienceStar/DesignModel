@@ -14,6 +14,7 @@
         <module>ObserverModel</module>
         <module>DecoratorModel</module>
         <module>FactoryModel</module>
+        <module>IngredientFactory</module>
     </modules>
     <packaging>pom</packaging>
 
