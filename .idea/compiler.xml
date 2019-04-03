@@ -15,6 +15,7 @@
         <module name="ProxyModel" />
         <module name="SingletonModel" />
         <module name="StrategyModel" />
+        <module name="TemplateModel" />
       </profile>
     </annotationProcessing>
   </component>
