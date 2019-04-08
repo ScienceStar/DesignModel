@@ -18,6 +18,7 @@
         <module>AdapterModel</module>
         <module>ProxyModel</module>
         <module>TemplateModel</module>
+        <module>CompositeModel</module>
     </modules>
     <packaging>pom</packaging>
 

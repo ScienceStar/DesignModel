@@ -13,7 +13,7 @@ public class PureSoyaMilkTest {
     @Test
     public void test1() {
         //制作纯豆浆
-        System.out.println( );
+//        System.out.println( );
         System.out.println("-----制作纯豆浆步骤-------");
         SoyaMilkWithHook pureSoyaMilk = new PureSoyaMilk( );
         pureSoyaMilk.prepareRecipe( );
