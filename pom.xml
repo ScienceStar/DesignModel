@@ -19,6 +19,7 @@
         <module>ProxyModel</module>
         <module>TemplateModel</module>
         <module>CompositeModel</module>
+        <module>IteratorModel</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -8,6 +8,7 @@
     <file url="file://$PROJECT_DIR$/DecoratorModel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FactoryModel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IngredientFactory" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/IteratorModel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ObserverModel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/ProxyModel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/SingletonModel" charset="UTF-8" />

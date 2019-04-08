@@ -16,7 +16,7 @@ public class SingletonBean {
 
     private SingletonBean() {
         if(singletonBean == null){
-            singletonBean = new SingletonBean();
+            singletonBean = getInstance();
         }
     }
 
