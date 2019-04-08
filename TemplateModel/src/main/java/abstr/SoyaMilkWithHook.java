@@ -20,7 +20,7 @@ public abstract class SoyaMilkWithHook {
     }
 
     //选材方法，选择黄豆
-    void selectMaterial() {
+    public void selectMaterial() {
         System.out.println("选择好了新鲜黄豆");
     }
 
@@ -37,8 +37,8 @@ public abstract class SoyaMilkWithHook {
         System.out.println("材料放到豆浆机打碎");
     }
 
-    //覆盖钩子方法，不添加配料
+    //钩子方法
     public boolean customerWantsCondiments(){
-        return false;
+        return true;
     }
 }

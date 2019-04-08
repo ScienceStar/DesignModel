@@ -18,4 +18,9 @@ public class PureSoyaMilk extends SoyaMilkWithHook {
     public boolean customerWantsCondiments() {
         return false;
     }
+
+    @Override
+    public void selectMaterial() {
+        super.selectMaterial( );
+    }
 }
