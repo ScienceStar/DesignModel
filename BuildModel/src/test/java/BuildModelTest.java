@@ -5,6 +5,10 @@ import buildInterface.impl.OfOBikeBuilder;
 import enginer.EngineeringDepartment;
 import org.junit.Test;
 
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
 /**
  * @program: designModel.uml
  * @description: 建造者模式测试
@@ -16,11 +20,11 @@ public class BuildModelTest {
     @Test
     public void buildModelDemo(){
         //摩拜生产
-        BikeBuilder bikeBuilder = new MoBileBuilder();
-        EngineeringDepartment engineeringDepartment = new EngineeringDepartment(bikeBuilder);
+        BikeBuilder moBileBuilder = new MoBileBuilder();
+        EngineeringDepartment mobikeDepartment = new EngineeringDepartment(moBileBuilder);
         //生产车子
-        engineeringDepartment.construct();
-        Bike bike = bikeBuilder.getBike();
+        mobikeDepartment.construct();
+        Bike moBike = moBileBuilder.getBike();
 
 
         //ofo生产线
@@ -30,6 +34,12 @@ public class BuildModelTest {
         ofoDepartment.construct();
         Bike ofo = ofoBikeBuilder.getBike();
 
-        System.out.println(bike.getType()+"\t"+bike.getGps()+"\n"+ofo.getType()+"\t"+ofo.getGps());
+        List<Bike> bikeList = new LinkedList<>();
+        bikeList.add(moBike);
+        bikeList.add(ofo);
+
+        for(Bike bike1 : bikeList){
+            System.out.println(bike1.getType()+"---->"+bike1.getGps());
+        }
     }
 }

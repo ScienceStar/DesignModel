@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5b215ca-07ca-43e1-aa6d-1fd7412e34dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CompositeModel/src/main/resources/UML_Composite" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IteratorModel/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CompositeModel/src/test/java/CompositeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompositeModel/src/test/java/CompositeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildModel/src/test/java/BuildModelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/BuildModel/src/test/java/BuildModelTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/SingletonModel/target/" />
@@ -48,7 +42,7 @@
     <session id="-1572282484">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="15" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.15" value="1" />
@@ -56,10 +50,11 @@
           <entry key="project.open.time.3" value="4" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.4" value="4" />
+          <entry key="project.open.time.57" value="1" />
           <entry key="project.open.time.58" value="1" />
           <entry key="project.open.time.67" value="1" />
           <entry key="project.open.time.71" value="1" />
-          <entry key="project.opened" value="16" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -69,8 +64,8 @@
           <entry key="OrganizationComponent" value="1" />
           <entry key="OutputInfo" value="1" />
           <entry key="class" value="2" />
-          <entry key="classpath" value="3" />
-          <entry key="java" value="116" />
+          <entry key="classpath" value="10" />
+          <entry key="java" value="122" />
           <entry key="md" value="3" />
           <entry key="xml" value="19" />
         </counts>
@@ -78,8 +73,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="Eclipse" value="3" />
-          <entry key="JAVA" value="116" />
+          <entry key="Eclipse" value="10" />
+          <entry key="JAVA" value="122" />
           <entry key="Markdown" value="3" />
           <entry key="UML" value="5" />
           <entry key="XML" value="19" />
@@ -88,7 +83,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="3829" />
+          <entry key="java" value="3933" />
           <entry key="md" value="10" />
           <entry key="txt" value="79" />
           <entry key="xml" value="75" />
@@ -96,7 +91,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3829" />
+          <entry key="JAVA" value="3933" />
           <entry key="Markdown" value="10" />
           <entry key="PLAIN_TEXT" value="81" />
           <entry key="XML" value="75" />
@@ -106,65 +101,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CompositeModel/src/main/java/composite/OrganizationComponent.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/University.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="760">
-              <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/College.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="608">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/IteratorModel/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/Department.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="34" column="84" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
-              <folding>
-                <element signature="e#480#481#0" expanded="true" />
-                <element signature="e#507#508#0" expanded="true" />
-                <element signature="e#559#560#0" expanded="true" />
-                <element signature="e#593#594#0" expanded="true" />
-                <element signature="e#654#655#0" expanded="true" />
-                <element signature="e#747#748#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/OutputInfo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -177,7 +113,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CompositeModel/src/test/java/CompositeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
+            <state relative-caret-position="247">
               <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -189,17 +125,87 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/test/SingletonTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+            <state relative-caret-position="456">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/buildInterface/impl/MoBileBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+              <folding>
+                <element signature="e#328#329#0" expanded="true" />
+                <element signature="e#364#365#0" expanded="true" />
+                <element signature="e#410#411#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#600#601#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/bean/Bike.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/enginer/EngineeringDepartment.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="361">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="e#301#302#0" expanded="true" />
+                <element signature="e#347#348#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/BuildModel/src/test/java/BuildModelTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/buildInterface/impl/OfOBikeBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="475">
+              <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="e#578#579#0" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/buildInterface/BikeBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="47" />
+            <state relative-caret-position="551">
+              <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
             </state>
           </provider>
         </entry>
@@ -227,7 +233,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/GZBeefShaobing.java" />
         <option value="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSOnionShaobing.java" />
         <option value="$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteProduct/CSBeefShaobing.java" />
         <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/bean/Dough.java" />
@@ -278,6 +283,7 @@
         <option value="$PROJECT_DIR$/CompositeModel/src/test/java/CompositeTest.java" />
         <option value="$PROJECT_DIR$/SingletonModel/src/main/test/SingletonTest.java" />
         <option value="$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java" />
+        <option value="$PROJECT_DIR$/BuildModel/src/test/java/BuildModelTest.java" />
       </list>
     </option>
   </component>
@@ -310,7 +316,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -321,47 +326,219 @@
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonModel" type="462c0819:PsiDirectoryNode" />
+              <item name="AdapterModel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonBean" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="buildInterface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="buildInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="buildInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="MoBileBuilder" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="buildInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="OfOBikeBuilder" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="buildInterface" type="462c0819:PsiDirectoryNode" />
+              <item name="BikeBuilder" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enginer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="enginer" type="462c0819:PsiDirectoryNode" />
+              <item name="EngineeringDepartment" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="BuildModelTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="CompositeModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="CompositeModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="CompositeModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="CompositeModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="CompositeModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="CompositeTest" type="1a9f42e2:ClassTreeNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="DecoratorModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="FactoryModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="IngredientFactory" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="IteratorModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="ObserverModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="ProxyModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="SingletonModel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="SingletonModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="SingletonModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
@@ -374,37 +551,33 @@
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonTest" type="1a9f42e2:ClassTreeNode" />
+              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="SingletonModel" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/develop/android_studio_sdk/android_studio_sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554709233962" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554771892836" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scan_cabinet_server" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.uml" />
+    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.AdvancedConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -431,7 +604,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SingletonTest.test2">
+  <component name="RunManager" selected="JUnit.BuildModelTest.buildModelDemo">
     <configuration name="MyRemoteImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inter.impl.MyRemoteImpl" />
       <module name="ProxyModel" />
@@ -445,20 +618,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CompositeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CompositeModel" />
+    <configuration name="BuildModelTest.buildModelDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="BuildModel" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CompositeTest" />
-      <option name="METHOD_NAME" value="test1" />
+      <option name="MAIN_CLASS_NAME" value="BuildModelTest" />
+      <option name="METHOD_NAME" value="buildModelDemo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PureSoyaMilkTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TemplateModel" />
+    <configuration name="CompositeTest.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CompositeModel" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PureSoyaMilkTest" />
+      <option name="MAIN_CLASS_NAME" value="CompositeTest" />
       <option name="METHOD_NAME" value="test1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -487,18 +660,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.MyRemoteImpl" />
-      <item itemvalue="JUnit.PureSoyaMilkTest.test1" />
       <item itemvalue="JUnit.CompositeTest.test1" />
       <item itemvalue="JUnit.SingletonTest.test2" />
       <item itemvalue="JUnit.SingletonTest.test1" />
+      <item itemvalue="JUnit.BuildModelTest.buildModelDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BuildModelTest.buildModelDemo" />
         <item itemvalue="JUnit.SingletonTest.test2" />
         <item itemvalue="JUnit.SingletonTest.test1" />
         <item itemvalue="JUnit.CompositeTest.test1" />
         <item itemvalue="Application.MyRemoteImpl" />
-        <item itemvalue="JUnit.PureSoyaMilkTest.test1" />
       </list>
     </recent_temporary>
   </component>
@@ -528,7 +701,8 @@
       <workItem from="1554684669120" duration="5210000" />
       <workItem from="1554691699077" duration="1774000" />
       <workItem from="1554702024090" duration="1257000" />
-      <workItem from="1554706098732" duration="1263000" />
+      <workItem from="1554706098732" duration="3546000" />
+      <workItem from="1554770818822" duration="1069000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式测试示例添加">
       <created>1553648983296</created>
@@ -733,25 +907,17 @@
       <option name="project" value="LOCAL" />
       <updated>1554688870067</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="单例模式测试示例添加">
+      <created>1554709284768</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1554709284768</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CompositeTest_test1 - 2019.04.08 at 11h 41m 02s.xml">
-      <configuration name="CompositeTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingletonTest_test2 - 2019.04.08 at 15h 30m 32s.xml">
-      <configuration name="SingletonTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingletonTest_test1 - 2019.04.08 at 15h 30m 59s.xml">
-      <configuration name="SingletonTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingletonTest_test2 - 2019.04.08 at 15h 31m 08s.xml">
-      <configuration name="SingletonTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingletonTest_test2 - 2019.04.08 at 15h 31m 30s.xml">
-      <configuration name="SingletonTest.test2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SingletonTest_test2 - 2019.04.08 at 15h 31m 55s.xml">
       <configuration name="SingletonTest.test2" configurationId="JUnit" />
     </history-entry>
@@ -767,15 +933,30 @@
     <history-entry file="SingletonTest_test1 - 2019.04.08 at 15h 38m 15s.xml">
       <configuration name="SingletonTest.test1" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="SingletonTest_test2 - 2019.04.08 at 15h 40m 35s.xml">
+      <configuration name="SingletonTest.test2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuildModelTest_buildModelDemo - 2019.04.08 at 16h 00m 40s.xml">
+      <configuration name="BuildModelTest.buildModelDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuildModelTest_buildModelDemo - 2019.04.08 at 16h 04m 16s.xml">
+      <configuration name="BuildModelTest.buildModelDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuildModelTest_buildModelDemo - 2019.04.08 at 16h 04m 36s.xml">
+      <configuration name="BuildModelTest.buildModelDemo" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BuildModelTest_buildModelDemo - 2019.04.09 at 08h 54m 29s.xml">
+      <configuration name="BuildModelTest.buildModelDemo" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81434000" />
+    <option name="totallyTimeSpent" value="84786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11940298" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -786,17 +967,17 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.23127754" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.10792951" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.37995595" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.5010661" side_tool="true" weight="0.33810574" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" weight="0.19933921" />
       <window_info anchor="bottom" id="Messages" order="9" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.23017621" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.10022026" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.11453745" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.50053304" side_tool="true" weight="0.25770926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -805,7 +986,7 @@
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.025586354" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.02292111" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
     </layout>
@@ -846,7 +1027,6 @@
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <MESSAGE value="单例模式-修改属性" />
     <MESSAGE value="单例模式-维护文件添加" />
-    <MESSAGE value="单例模式测试示例添加" />
     <MESSAGE value="建造者模式测试示例添加" />
     <MESSAGE value="观察者模式示例添加" />
     <MESSAGE value="模式描述添加" />
@@ -858,7 +1038,8 @@
     <MESSAGE value="模板模式" />
     <MESSAGE value="模板模式-钩子方法" />
     <MESSAGE value="组合模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="组合模式" />
+    <MESSAGE value="单例模式测试示例添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="单例模式测试示例添加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -869,107 +1050,10 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
-        <line-breakpoint type="java-line">
-          <url>file://$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/product/Shaobing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/bean/Shaobing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/ShaobingStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FactoryModel/src/main/java/creator/concreteCreator/GZShaobingStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="313">
-          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/GZShaobingStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="26" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/CSShaobingStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/factory/IngredientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/factory/ShaobingIngredientFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="32" column="16" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/ShaobingStore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="24" selection-start-line="19" selection-start-column="24" selection-end-line="19" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/OnionShaobing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DecoratorModel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdapterModel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AdapterModel/src/main/java/inter/Bird.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="15" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AdapterModel/src/main/java/inter/impl/Goose.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -1238,6 +1322,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ObserverModel/.classpath" />
+    <entry file="file://$PROJECT_DIR$/StrategyModel/.classpath" />
+    <entry file="file://$PROJECT_DIR$/IngredientFactory/.classpath" />
+    <entry file="file://$PROJECT_DIR$/FactoryModel/.classpath" />
+    <entry file="file://$PROJECT_DIR$/DecoratorModel/.classpath" />
+    <entry file="file://$PROJECT_DIR$/BuildModel/.classpath" />
+    <entry file="file://$PROJECT_DIR$/AdapterModel/.classpath" />
     <entry file="file://$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/University.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -1289,7 +1380,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CompositeModel/src/test/java/CompositeTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
+        <state relative-caret-position="247">
           <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1299,15 +1390,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/test/SingletonTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="44" selection-start-line="24" selection-start-column="44" selection-end-line="24" selection-end-column="44" />
+        <state relative-caret-position="456">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="18" column="32" lean-forward="true" selection-start-line="18" selection-start-column="32" selection-end-line="18" selection-end-column="47" />
+        <state relative-caret-position="551">
+          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/bean/Bike.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/enginer/EngineeringDepartment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="e#301#302#0" expanded="true" />
+            <element signature="e#347#348#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/buildInterface/impl/MoBileBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
+          <folding>
+            <element signature="e#328#329#0" expanded="true" />
+            <element signature="e#364#365#0" expanded="true" />
+            <element signature="e#410#411#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#600#601#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/buildInterface/BikeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/buildInterface/impl/OfOBikeBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="e#578#579#0" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BuildModel/src/test/java/BuildModelTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
         </state>
       </provider>
     </entry>
