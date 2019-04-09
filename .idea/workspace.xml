@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5b215ca-07ca-43e1-aa6d-1fd7412e34dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Auditer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Recruter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/AuditOr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/Coder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/RecrutOr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/DoWorking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Auditing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Coding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Recruiting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/FacedModel/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateModel/src/main/java/action/ChangeAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateModel/src/main/java/bean/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TemplateModel/src/test/java/PersonChange.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/SingletonModel/target/" />
@@ -28,6 +24,7 @@
     <ignored path="$PROJECT_DIR$/TemplateModel/target/" />
     <ignored path="$PROJECT_DIR$/CompositeModel/target/" />
     <ignored path="$PROJECT_DIR$/IteratorModel/target/" />
+    <ignored path="$PROJECT_DIR$/FacedModel/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,76 +72,42 @@
           <entry key="OutputInfo" value="1" />
           <entry key="class" value="3" />
           <entry key="classpath" value="10" />
-          <entry key="java" value="133" />
+          <entry key="java" value="136" />
           <entry key="md" value="3" />
-          <entry key="xml" value="20" />
+          <entry key="xml" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
           <entry key="Eclipse" value="10" />
-          <entry key="JAVA" value="133" />
+          <entry key="JAVA" value="136" />
           <entry key="Markdown" value="3" />
           <entry key="UML" value="5" />
-          <entry key="XML" value="20" />
+          <entry key="XML" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="2" />
-          <entry key="java" value="4428" />
+          <entry key="java" value="4793" />
           <entry key="md" value="10" />
-          <entry key="txt" value="79" />
-          <entry key="xml" value="75" />
+          <entry key="txt" value="85" />
+          <entry key="xml" value="84" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="4428" />
+          <entry key="JAVA" value="4793" />
           <entry key="Markdown" value="10" />
-          <entry key="PLAIN_TEXT" value="81" />
-          <entry key="XML" value="75" />
+          <entry key="PLAIN_TEXT" value="87" />
+          <entry key="XML" value="84" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Auditing.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#236#237#0" expanded="true" />
-                <element signature="e#273#274#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/Auditer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="e#274#275#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/AuditOr.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -160,23 +123,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Recruiting.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-              <folding>
-                <element signature="e#239#240#0" expanded="true" />
-                <element signature="e#276#277#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
-              <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
                 <element signature="e#248#249#0" expanded="true" />
                 <element signature="e#272#273#0" expanded="true" />
@@ -226,13 +176,67 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+            <state relative-caret-position="589">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/FacedModel/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TemplateModel/src/main/java/bean/Person.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="190">
+              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+              <folding>
+                <element signature="e#318#319#0" expanded="true" />
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#385#386#0" expanded="true" />
+                <element signature="e#417#418#0" expanded="true" />
+                <element signature="e#447#448#0" expanded="true" />
+                <element signature="e#473#474#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#541#542#0" expanded="true" />
+                <element signature="e#573#574#0" expanded="true" />
+                <element signature="e#601#602#0" expanded="true" />
+                <element signature="e#643#644#0" expanded="true" />
+                <element signature="e#677#678#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/TemplateModel/src/main/java/action/ChangeAction.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/TemplateModel/src/test/java/PersonChange.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="490">
+              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#398#406#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -261,12 +265,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/DBDough.java" />
-        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/TomatoSauce.java" />
-        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/Onion.java" />
-        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/factory/ShaobingIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/ShaobingStore.java" />
-        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/bean/Shaobing.java" />
         <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/OnionShaobing.java" />
         <option value="$PROJECT_DIR$/IngredientFactory/src/test/java/TestIngredientFactory.java" />
         <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/GZShaobingStore.java" />
@@ -312,6 +310,12 @@
         <option value="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Recruter.java" />
         <option value="$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/RecrutOr.java" />
         <option value="$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java" />
+        <option value="$PROJECT_DIR$/FacedModel/pom.xml" />
+        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/abstr/bean/Person.java" />
+        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/bean/Person.java" />
+        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/action/Change.java" />
+        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/action/ChangeAction.java" />
+        <option value="$PROJECT_DIR$/TemplateModel/src/test/java/PersonChange.java" />
       </list>
     </option>
   </component>
@@ -354,146 +358,71 @@
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="inter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="inter" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="StrategyModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
               <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
               <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="action" type="462c0819:PsiDirectoryNode" />
+              <item name="ChangeAction" type="1a9f42e2:ClassTreeNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="bean" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: junit:junit:4.12" type="70bed36:NamedLibraryElementNode" />
-              <item name="junit-4.12.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="junit" type="462c0819:PsiDirectoryNode" />
-              <item name="internal" type="462c0819:PsiDirectoryNode" />
-              <item name="runners" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-              <item name="ReflectiveCallable" type="1a9f42e2:ClassTreeNode" />
+              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
+              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -506,7 +435,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="D:/develop/android_studio_sdk/android_studio_sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554774861116" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554780679618" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../scan_cabinet_server" />
     <property name="nodejs.jest.jest_package" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -518,6 +447,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="inter" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -541,7 +471,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StrategyClient.test3">
+  <component name="RunManager" selected="JUnit.PersonChange.testChangePerson">
     <configuration name="BuildModelTest.buildModelDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="BuildModel" />
       <option name="PACKAGE_NAME" value="" />
@@ -552,11 +482,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="SingletonModel" />
+    <configuration name="PersonChange.testChangePerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TemplateModel" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="SingletonTest" />
-      <option name="METHOD_NAME" value="test2" />
+      <option name="MAIN_CLASS_NAME" value="PersonChange" />
+      <option name="METHOD_NAME" value="testChangePerson" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -593,19 +523,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.SingletonTest.test2" />
       <item itemvalue="JUnit.BuildModelTest.buildModelDemo" />
       <item itemvalue="JUnit.StrategyClient.test1" />
       <item itemvalue="JUnit.StrategyClient.test2" />
       <item itemvalue="JUnit.StrategyClient.test3" />
+      <item itemvalue="JUnit.PersonChange.testChangePerson" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonChange.testChangePerson" />
         <item itemvalue="JUnit.StrategyClient.test3" />
         <item itemvalue="JUnit.StrategyClient.test2" />
         <item itemvalue="JUnit.StrategyClient.test1" />
         <item itemvalue="JUnit.BuildModelTest.buildModelDemo" />
-        <item itemvalue="JUnit.SingletonTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -636,7 +566,7 @@
       <workItem from="1554691699077" duration="1774000" />
       <workItem from="1554702024090" duration="1257000" />
       <workItem from="1554706098732" duration="3546000" />
-      <workItem from="1554770818822" duration="4026000" />
+      <workItem from="1554770818822" duration="6268000" />
     </task>
     <task id="LOCAL-00001" summary="单例模式测试示例添加">
       <created>1553648983296</created>
@@ -855,22 +785,17 @@
       <option name="project" value="LOCAL" />
       <updated>1554771971333</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="策略模式添加">
+      <created>1554774940007</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1554774940007</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SingletonTest_test1 - 2019.04.08 at 15h 38m 15s.xml">
-      <configuration name="SingletonTest.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="SingletonTest_test2 - 2019.04.08 at 15h 40m 35s.xml">
-      <configuration name="SingletonTest.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BuildModelTest_buildModelDemo - 2019.04.08 at 16h 00m 40s.xml">
-      <configuration name="BuildModelTest.buildModelDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BuildModelTest_buildModelDemo - 2019.04.08 at 16h 04m 16s.xml">
-      <configuration name="BuildModelTest.buildModelDemo" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="BuildModelTest_buildModelDemo - 2019.04.08 at 16h 04m 36s.xml">
       <configuration name="BuildModelTest.buildModelDemo" configurationId="JUnit" />
     </history-entry>
@@ -889,15 +814,27 @@
     <history-entry file="StrategyClient_test2 - 2019.04.09 at 09h 48m 33s.xml">
       <configuration name="StrategyClient.test2" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="StrategyClient_test3 - 2019.04.09 at 09h 54m 22s.xml">
+      <configuration name="StrategyClient.test3" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonChange_testChangePerson - 2019.04.09 at 11h 22m 43s.xml">
+      <configuration name="PersonChange.testChangePerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonChange_testChangePerson - 2019.04.09 at 11h 29m 20s.xml">
+      <configuration name="PersonChange.testChangePerson" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PersonChange_testChangePerson - 2019.04.09 at 11h 31m 10s.xml">
+      <configuration name="PersonChange.testChangePerson" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87743000" />
+    <option name="totallyTimeSpent" value="89985000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="JRebel" order="3" side_tool="true" />
@@ -908,17 +845,17 @@
       <window_info id="Web" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.19493392" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.24559471" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.2665198" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" weight="0.19933921" />
-      <window_info anchor="bottom" id="Messages" order="9" />
+      <window_info anchor="bottom" id="Messages" order="9" weight="0.32929516" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.23017621" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.3072687" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.13105726" />
       <window_info anchor="bottom" id="JRebel Executor" order="13" />
       <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.50053304" side_tool="true" weight="0.25770926" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -980,7 +917,8 @@
     <MESSAGE value="组合模式" />
     <MESSAGE value="单例模式测试示例添加" />
     <MESSAGE value="建造者模式测试示例添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="建造者模式测试示例添加" />
+    <MESSAGE value="策略模式添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="策略模式添加" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1007,34 +945,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/TemplateModel/src/test/java/TestTemplate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyModel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="10" selection-start-line="15" selection-start-column="10" selection-end-line="15" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyModel/src/main/java/inter/MyRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyModel/src/main/java/inter/impl/Proxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="68" selection-start-line="20" selection-start-column="68" selection-end-line="20" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SingletonModel/.classpath" />
     <entry file="file://$PROJECT_DIR$/ProxyModel/src/main/java/client/ProxyClient.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1425,7 +1335,7 @@
     <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="15" column="17" lean-forward="true" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
             <element signature="e#248#249#0" expanded="true" />
             <element signature="e#272#273#0" expanded="true" />
@@ -1458,10 +1368,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+        <state relative-caret-position="589">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FacedModel/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplateModel/src/main/java/bean/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
+          <folding>
+            <element signature="e#318#319#0" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+            <element signature="e#417#418#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#541#542#0" expanded="true" />
+            <element signature="e#573#574#0" expanded="true" />
+            <element signature="e#601#602#0" expanded="true" />
+            <element signature="e#643#644#0" expanded="true" />
+            <element signature="e#677#678#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplateModel/src/main/java/action/ChangeAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/TemplateModel/src/test/java/PersonChange.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#398#406#0" expanded="true" />
           </folding>
         </state>
       </provider>

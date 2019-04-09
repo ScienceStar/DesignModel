@@ -10,6 +10,7 @@
         <module name="BuildModel" />
         <module name="CompositeModel" />
         <module name="DecoratorModel" />
+        <module name="FacedModel" />
         <module name="FactoryModel" />
         <module name="IngredientFactory" />
         <module name="IteratorModel" />

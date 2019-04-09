@@ -20,6 +20,7 @@
         <module>TemplateModel</module>
         <module>CompositeModel</module>
         <module>IteratorModel</module>
+        <module>FacedModel</module>
     </modules>
     <packaging>pom</packaging>
 

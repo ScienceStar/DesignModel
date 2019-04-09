@@ -6,6 +6,7 @@
     <file url="file://$PROJECT_DIR$/BuildModel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/CompositeModel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/DecoratorModel" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/FacedModel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/FactoryModel" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IngredientFactory" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/IteratorModel" charset="UTF-8" />
