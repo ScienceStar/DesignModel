@@ -1,329 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a5b215ca-07ca-43e1-aa6d-1fd7412e34dd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/FacedModel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TemplateModel/src/main/java/action/ChangeAction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TemplateModel/src/main/java/bean/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TemplateModel/src/test/java/PersonChange.java" afterDir="false" />
+    <list default="true" id="89419168-3b32-4707-aa9a-5c62380f9cd6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/designModel.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
-    <ignored path="$PROJECT_DIR$/SingletonModel/target/" />
-    <ignored path="$PROJECT_DIR$/BuildModel/target/" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/ProxyModel/target/" />
     <ignored path="$PROJECT_DIR$/StrategyModel/target/" />
+    <ignored path="$PROJECT_DIR$/FactoryModel/target/" />
+    <ignored path="$PROJECT_DIR$/AdapterModel/target/" />
+    <ignored path="$PROJECT_DIR$/BuildModel/target/" />
+    <ignored path="$PROJECT_DIR$/TemplateModel/target/" />
     <ignored path="$PROJECT_DIR$/ObserverModel/target/" />
     <ignored path="$PROJECT_DIR$/DecoratorModel/target/" />
-    <ignored path="$PROJECT_DIR$/FactoryModel/target/" />
+    <ignored path="$PROJECT_DIR$/SingletonModel/target/" />
     <ignored path="$PROJECT_DIR$/IngredientFactory/target/" />
-    <ignored path="$PROJECT_DIR$/AdapterModel/target/" />
-    <ignored path="$PROJECT_DIR$/ProxyModel/target/" />
-    <ignored path="$PROJECT_DIR$/TemplateModel/target/" />
-    <ignored path="$PROJECT_DIR$/CompositeModel/target/" />
-    <ignored path="$PROJECT_DIR$/IteratorModel/target/" />
-    <ignored path="$PROJECT_DIR$/FacedModel/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="-1572282484">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="15" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.11" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.20" value="1" />
-          <entry key="project.open.time.3" value="4" />
-          <entry key="project.open.time.38" value="1" />
-          <entry key="project.open.time.4" value="4" />
-          <entry key="project.open.time.57" value="1" />
-          <entry key="project.open.time.58" value="1" />
-          <entry key="project.open.time.67" value="1" />
-          <entry key="project.open.time.71" value="1" />
-          <entry key="project.opened" value="17" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="College" value="2" />
-          <entry key="Department" value="1" />
-          <entry key="OrganizationComponent" value="1" />
-          <entry key="OutputInfo" value="1" />
-          <entry key="class" value="3" />
-          <entry key="classpath" value="10" />
-          <entry key="java" value="136" />
-          <entry key="md" value="3" />
-          <entry key="xml" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="3" />
-          <entry key="Eclipse" value="10" />
-          <entry key="JAVA" value="136" />
-          <entry key="Markdown" value="3" />
-          <entry key="UML" value="5" />
-          <entry key="XML" value="21" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="dummy" value="2" />
-          <entry key="java" value="4793" />
-          <entry key="md" value="10" />
-          <entry key="txt" value="85" />
-          <entry key="xml" value="84" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="JAVA" value="4793" />
-          <entry key="Markdown" value="10" />
-          <entry key="PLAIN_TEXT" value="87" />
-          <entry key="XML" value="84" />
-        </counts>
-      </usages-collector>
-    </session>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/AuditOr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#246#247#0" expanded="true" />
-                <element signature="e#287#288#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/Employee.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-              <folding>
-                <element signature="e#248#249#0" expanded="true" />
-                <element signature="e#272#273#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/Recruter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-              <folding>
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#285#286#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/RecrutOr.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#247#248#0" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/Coder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#240#241#0" expanded="true" />
-                <element signature="e#279#280#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FacedModel/pom.xml">
+        <entry file="file://$PROJECT_DIR$/ProxyModel/src/main/java/client/ProxyClient.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="190">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TemplateModel/src/main/java/bean/Person.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-              <folding>
-                <element signature="e#318#319#0" expanded="true" />
-                <element signature="e#345#346#0" expanded="true" />
-                <element signature="e#385#386#0" expanded="true" />
-                <element signature="e#417#418#0" expanded="true" />
-                <element signature="e#447#448#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-                <element signature="e#541#542#0" expanded="true" />
-                <element signature="e#573#574#0" expanded="true" />
-                <element signature="e#601#602#0" expanded="true" />
-                <element signature="e#643#644#0" expanded="true" />
-                <element signature="e#677#678#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/TemplateModel/src/main/java/action/ChangeAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/TemplateModel/src/test/java/PersonChange.java">
+        <entry file="file://$PROJECT_DIR$/ProxyModel/src/main/java/inter/MyRemote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#398#406#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="304">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Interface" />
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="projectSyncType">
-      <map>
-        <entry key="$PROJECT_DIR$/../App12" value="PREVIEW" />
-      </map>
-    </option>
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/OnionShaobing.java" />
-        <option value="$PROJECT_DIR$/IngredientFactory/src/test/java/TestIngredientFactory.java" />
-        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/GZShaobingStore.java" />
-        <option value="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/story/impl/CSShaobingStore.java" />
-        <option value="$PROJECT_DIR$/AdapterModel/pom.xml" />
-        <option value="$PROJECT_DIR$/AdapterModel/src/main/java/inter/Bird.java" />
-        <option value="$PROJECT_DIR$/AdapterModel/src/test/java/TestAdapter.java" />
-        <option value="$PROJECT_DIR$/AdapterModel/src/main/java/inter/impl/Goose.java" />
-        <option value="$PROJECT_DIR$/AdapterModel/src/main/java/adapter/GooseAdapter.java" />
-        <option value="$PROJECT_DIR$/AdapterModel/src/main/java/inter/impl/Parrot.java" />
-        <option value="$PROJECT_DIR$/ProxyModel/pom.xml" />
-        <option value="$PROJECT_DIR$/ProxyModel/src/main/java/inter/MyRemote.java" />
-        <option value="$PROJECT_DIR$/ProxyModel/src/main/java/inter/impl/Proxy.java" />
-        <option value="$PROJECT_DIR$/ObserverModel/pom.xml" />
-        <option value="$PROJECT_DIR$/ProxyModel/src/main/java/client/ProxyClient.java" />
-        <option value="$PROJECT_DIR$/ProxyModel/src/main/java/inter/impl/MyRemoteImpl.java" />
-        <option value="$PROJECT_DIR$/TemplateModel/pom.xml" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/abstr/impl/ReddatesSoyaMilk.java" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/abstr/impl/NutSoyaMilk.java" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/test/java/TestTemplate.java" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/abstr/SoyaMilk.java" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/abstr/impl/PureSoyaMilk.java" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/abstr/SoyaMilkWithHook.java" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/test/java/PureSoyaMilkTest.java" />
-        <option value="$PROJECT_DIR$/CompositeModel/src/main/java/composite/OrganizationComponent.java" />
-        <option value="$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/University.java" />
-        <option value="$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/College.java" />
-        <option value="$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/OutputInfo.java" />
-        <option value="$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/Department.java" />
-        <option value="$PROJECT_DIR$/IteratorModel/pom.xml" />
-        <option value="$PROJECT_DIR$/CompositeModel/src/test/java/CompositeTest.java" />
-        <option value="$PROJECT_DIR$/SingletonModel/src/main/test/SingletonTest.java" />
-        <option value="$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java" />
-        <option value="$PROJECT_DIR$/BuildModel/src/test/java/BuildModelTest.java" />
-        <option value="$PROJECT_DIR$/StrategyModel/src/main/java/inter/DoWorking.java" />
-        <option value="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Coding.java" />
-        <option value="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Auditing.java" />
-        <option value="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Recruiting.java" />
-        <option value="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Employee.java" />
-        <option value="$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/Coder.java" />
-        <option value="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Auditer.java" />
-        <option value="$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/AuditOr.java" />
-        <option value="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Recruter.java" />
-        <option value="$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/RecrutOr.java" />
-        <option value="$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java" />
-        <option value="$PROJECT_DIR$/FacedModel/pom.xml" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/abstr/bean/Person.java" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/bean/Person.java" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/action/Change.java" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/main/java/action/ChangeAction.java" />
-        <option value="$PROJECT_DIR$/TemplateModel/src/test/java/PersonChange.java" />
-      </list>
-    </option>
-  </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsGulpfileManager">
-    <detection-done>true</detection-done>
-    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -333,131 +65,40 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="120" />
-    <option name="y" value="230" />
-    <option name="width" value="1750" />
-    <option name="height" value="970" />
+    <option name="width" value="954" />
+    <option name="height" value="870" />
   </component>
-  <component name="ProjectLevelVcsManager">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <autoscrollToSource ProjectPane="true" />
       <autoscrollFromSource ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="action" type="462c0819:PsiDirectoryNode" />
-              <item name="ChangeAction" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="bean" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="designModel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DesignModel" type="462c0819:PsiDirectoryNode" />
-              <item name="TemplateModel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="workspace" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="android.sdk.path" value="D:/develop/android_studio_sdk/android_studio_sdk" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554780679618" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../scan_cabinet_server" />
-    <property name="nodejs.jest.jest_package" value="" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="com.zeroturnaround.javarebel.idea.plugin.settings.AdvancedConfigurable" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-      <recent name="inter" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="inter.story" />
-      <recent name="Subject" />
-      <recent name="subject" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\workspace\DesignModel" />
-    </key>
+    <property name="settings.editor.selected.configurable" value="ics" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -471,1038 +112,83 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PersonChange.testChangePerson">
-    <configuration name="BuildModelTest.buildModelDemo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="BuildModel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="BuildModelTest" />
-      <option name="METHOD_NAME" value="buildModelDemo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PersonChange.testChangePerson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="TemplateModel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PersonChange" />
-      <option name="METHOD_NAME" value="testChangePerson" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrategyClient.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StrategyModel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StrategyClient" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrategyClient.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StrategyModel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StrategyClient" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrategyClient.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StrategyModel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StrategyClient" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="JUnit.BuildModelTest.buildModelDemo" />
-      <item itemvalue="JUnit.StrategyClient.test1" />
-      <item itemvalue="JUnit.StrategyClient.test2" />
-      <item itemvalue="JUnit.StrategyClient.test3" />
-      <item itemvalue="JUnit.PersonChange.testChangePerson" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="JUnit.PersonChange.testChangePerson" />
-        <item itemvalue="JUnit.StrategyClient.test3" />
-        <item itemvalue="JUnit.StrategyClient.test2" />
-        <item itemvalue="JUnit.StrategyClient.test1" />
-        <item itemvalue="JUnit.BuildModelTest.buildModelDemo" />
-      </list>
-    </recent_temporary>
-  </component>
   <component name="SvnConfiguration">
-    <configuration>C:\Users\Administrator\AppData\Roaming\Subversion</configuration>
-    <supportedVersion>125</supportedVersion>
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="a5b215ca-07ca-43e1-aa6d-1fd7412e34dd" name="Default Changelist" comment="" />
-      <created>1553562409347</created>
+      <changelist id="89419168-3b32-4707-aa9a-5c62380f9cd6" name="Default Changelist" comment="" />
+      <created>1554612909114</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1553562409347</updated>
-      <workItem from="1553562411022" duration="2708000" />
-      <workItem from="1553566143757" duration="3927000" />
-      <workItem from="1553646970729" duration="460000" />
-      <workItem from="1553647813124" duration="9157000" />
-      <workItem from="1553736033826" duration="12175000" />
-      <workItem from="1553820494218" duration="4550000" />
-      <workItem from="1554082082477" duration="6677000" />
-      <workItem from="1554088233067" duration="6297000" />
-      <workItem from="1554165097741" duration="14538000" />
-      <workItem from="1554251588691" duration="7409000" />
-      <workItem from="1554339115882" duration="629000" />
-      <workItem from="1554345604908" duration="3403000" />
-      <workItem from="1554684669120" duration="5210000" />
-      <workItem from="1554691699077" duration="1774000" />
-      <workItem from="1554702024090" duration="1257000" />
-      <workItem from="1554706098732" duration="3546000" />
-      <workItem from="1554770818822" duration="6268000" />
+      <updated>1554612909114</updated>
+      <workItem from="1554612910554" duration="245000" />
+      <workItem from="1555252228716" duration="428000" />
     </task>
-    <task id="LOCAL-00001" summary="单例模式测试示例添加">
-      <created>1553648983296</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1553648983296</updated>
-    </task>
-    <task id="LOCAL-00002" summary="单例模式测试示例添加">
-      <created>1553653521479</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1553653521479</updated>
-    </task>
-    <task id="LOCAL-00003" summary="单例模式测试示例添加">
-      <created>1553654386785</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1553654386785</updated>
-    </task>
-    <task id="LOCAL-00004" summary="单例模式-修改属性">
-      <created>1553655859449</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1553655859449</updated>
-    </task>
-    <task id="LOCAL-00005" summary="单例模式-维护文件添加">
-      <created>1553656208683</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1553656208683</updated>
-    </task>
-    <task id="LOCAL-00006" summary="单例模式-维护文件添加">
-      <created>1553656475804</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1553656475804</updated>
-    </task>
-    <task id="LOCAL-00007" summary="单例模式测试示例添加">
-      <created>1553677352927</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1553677352927</updated>
-    </task>
-    <task id="LOCAL-00008" summary="建造者模式测试示例添加">
-      <created>1553738016949</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1553738016949</updated>
-    </task>
-    <task id="LOCAL-00009" summary="观察者模式示例添加">
-      <created>1553752605463</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1553752605463</updated>
-    </task>
-    <task id="LOCAL-00010" summary="观察者模式示例添加">
-      <created>1553756335857</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1553756335858</updated>
-    </task>
-    <task id="LOCAL-00011" summary="观察者模式示例添加">
-      <created>1553756682711</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1553756682711</updated>
-    </task>
-    <task id="LOCAL-00012" summary="观察者模式示例添加">
-      <created>1553765298245</created>
-      <option name="number" value="00012" />
-      <option name="presentableId" value="LOCAL-00012" />
-      <option name="project" value="LOCAL" />
-      <updated>1553765298245</updated>
-    </task>
-    <task id="LOCAL-00013" summary="模式描述添加">
-      <created>1554083558596</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1554083558596</updated>
-    </task>
-    <task id="LOCAL-00014" summary="装饰者模式">
-      <created>1554086382748</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1554086382748</updated>
-    </task>
-    <task id="LOCAL-00015" summary="装饰者模式">
-      <created>1554087174435</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1554087174435</updated>
-    </task>
-    <task id="LOCAL-00016" summary="工厂模式">
-      <created>1554100176722</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1554100176722</updated>
-    </task>
-    <task id="LOCAL-00017" summary="工厂模式">
-      <created>1554108192996</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1554108192996</updated>
-    </task>
-    <task id="LOCAL-00018" summary="抽象工厂模式">
-      <created>1554168887175</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1554168887175</updated>
-    </task>
-    <task id="LOCAL-00019" summary="抽象工厂模式">
-      <created>1554169242442</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1554169242442</updated>
-    </task>
-    <task id="LOCAL-00020" summary="抽象工厂模式">
-      <created>1554170518250</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1554170518250</updated>
-    </task>
-    <task id="LOCAL-00021" summary="适配器模式">
-      <created>1554184488850</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1554184488850</updated>
-    </task>
-    <task id="LOCAL-00022" summary="代理模式">
-      <created>1554187638789</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1554187638789</updated>
-    </task>
-    <task id="LOCAL-00023" summary="代理模式">
-      <created>1554188286166</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1554188286166</updated>
-    </task>
-    <task id="LOCAL-00024" summary="代理模式">
-      <created>1554190661998</created>
-      <option name="number" value="00024" />
-      <option name="presentableId" value="LOCAL-00024" />
-      <option name="project" value="LOCAL" />
-      <updated>1554190661998</updated>
-    </task>
-    <task id="LOCAL-00025" summary="代理模式">
-      <created>1554197175642</created>
-      <option name="number" value="00025" />
-      <option name="presentableId" value="LOCAL-00025" />
-      <option name="project" value="LOCAL" />
-      <updated>1554197175642</updated>
-    </task>
-    <task id="LOCAL-00026" summary="模板模式">
-      <created>1554260248468</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1554260248468</updated>
-    </task>
-    <task id="LOCAL-00027" summary="模板模式-钩子方法">
-      <created>1554271082399</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1554271082399</updated>
-    </task>
-    <task id="LOCAL-00028" summary="模板模式-钩子方法">
-      <created>1554686023599</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1554686023599</updated>
-    </task>
-    <task id="LOCAL-00029" summary="组合模式">
-      <created>1554688870067</created>
-      <option name="number" value="00029" />
-      <option name="presentableId" value="LOCAL-00029" />
-      <option name="project" value="LOCAL" />
-      <updated>1554688870067</updated>
-    </task>
-    <task id="LOCAL-00030" summary="单例模式测试示例添加">
-      <created>1554709284768</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1554709284768</updated>
-    </task>
-    <task id="LOCAL-00031" summary="建造者模式测试示例添加">
-      <created>1554771971333</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1554771971333</updated>
-    </task>
-    <task id="LOCAL-00032" summary="策略模式添加">
-      <created>1554774940007</created>
-      <option name="number" value="00032" />
-      <option name="presentableId" value="LOCAL-00032" />
-      <option name="project" value="LOCAL" />
-      <updated>1554774940007</updated>
-    </task>
-    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="BuildModelTest_buildModelDemo - 2019.04.08 at 16h 04m 36s.xml">
-      <configuration name="BuildModelTest.buildModelDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="BuildModelTest_buildModelDemo - 2019.04.09 at 08h 54m 29s.xml">
-      <configuration name="BuildModelTest.buildModelDemo" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StrategyClient_test1 - 2019.04.09 at 09h 36m 08s.xml">
-      <configuration name="StrategyClient.test1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StrategyClient_test2 - 2019.04.09 at 09h 44m 07s.xml">
-      <configuration name="StrategyClient.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StrategyClient_test2 - 2019.04.09 at 09h 46m 21s.xml">
-      <configuration name="StrategyClient.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StrategyClient_test2 - 2019.04.09 at 09h 48m 33s.xml">
-      <configuration name="StrategyClient.test2" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="StrategyClient_test3 - 2019.04.09 at 09h 54m 22s.xml">
-      <configuration name="StrategyClient.test3" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonChange_testChangePerson - 2019.04.09 at 11h 22m 43s.xml">
-      <configuration name="PersonChange.testChangePerson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonChange_testChangePerson - 2019.04.09 at 11h 29m 20s.xml">
-      <configuration name="PersonChange.testChangePerson" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="PersonChange_testChangePerson - 2019.04.09 at 11h 31m 10s.xml">
-      <configuration name="PersonChange.testChangePerson" configurationId="JUnit" />
-    </history-entry>
-  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89985000" />
+    <option name="totallyTimeSpent" value="673000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1453" height="913" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15085287" />
+      <window_info id="Image Layers" />
+      <window_info id="Capture Tool" />
+      <window_info id="Web" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17849462" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
-      <window_info id="JRebel" order="3" side_tool="true" />
-      <window_info id="Image Layers" order="4" />
-      <window_info id="UI Designer" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info id="Capture Tool" order="7" />
-      <window_info id="Web" order="8" side_tool="true" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32929516" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49840087" visible="true" weight="0.24559471" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.2665198" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50159913" side_tool="true" weight="0.19933921" />
-      <window_info anchor="bottom" id="Messages" order="9" weight="0.32929516" />
-      <window_info anchor="bottom" id="Java Enterprise" order="10" weight="0.23017621" />
-      <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="12" weight="0.13105726" />
-      <window_info anchor="bottom" id="JRebel Executor" order="13" />
-      <window_info anchor="bottom" id="JRebel Console" order="14" sideWeight="0.50053304" side_tool="true" weight="0.25770926" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32992327" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.02292111" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
-              <option name="COLUMN_ORDER">
-                <list>
-                  <option value="0" />
-                  <option value="1" />
-                  <option value="2" />
-                  <option value="3" />
-                </list>
-              </option>
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="单例模式-修改属性" />
-    <MESSAGE value="单例模式-维护文件添加" />
-    <MESSAGE value="观察者模式示例添加" />
-    <MESSAGE value="模式描述添加" />
-    <MESSAGE value="装饰者模式" />
-    <MESSAGE value="工厂模式" />
-    <MESSAGE value="抽象工厂模式" />
-    <MESSAGE value="适配器模式" />
-    <MESSAGE value="代理模式" />
-    <MESSAGE value="模板模式" />
-    <MESSAGE value="模板模式-钩子方法" />
-    <MESSAGE value="组合模式" />
-    <MESSAGE value="单例模式测试示例添加" />
-    <MESSAGE value="建造者模式测试示例添加" />
-    <MESSAGE value="策略模式添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="策略模式添加" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/DecoratorModel/src/main/java/component/Tea.java</url>
-          <line>18</line>
-          <properties />
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/Auditer.java</url>
-          <line>16</line>
-          <properties />
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/Auditer.java</url>
-          <line>12</line>
-          <properties field="doWorking" class="bean.Auditer" />
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/SingletonModel/.classpath" />
     <entry file="file://$PROJECT_DIR$/ProxyModel/src/main/java/client/ProxyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="37" selection-start-line="18" selection-start-column="37" selection-end-line="18" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/java/bean/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateModel/src/main/java/abstr/SoyaMilkWithHook.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateModel/src/main/java/abstr/impl/PureSoyaMilk.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateModel/src/test/java/PureSoyaMilkTest.java">
+    <entry file="file://$PROJECT_DIR$/ProxyModel/src/main/java/inter/MyRemote.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="32" selection-start-line="16" selection-start-column="32" selection-end-line="16" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ProxyModel/src/main/java/inter/impl/MyRemoteImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="31" column="23" selection-start-line="31" selection-start-column="23" selection-end-line="31" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompositeModel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="uml://JAVA/composite.impl.Department">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>composite.impl.Department</OriginalElement>
-          <nodes>
-            <node x="34.0" y="196.0">composite.impl.Department</node>
-            <node x="0.0" y="0.0">composite.OrganizationComponent</node>
-          </nodes>
-          <notes />
-          <edges>
-            <edge source="composite.impl.Department" target="composite.OrganizationComponent">
-              <point x="0.0" y="-62.0" />
-              <point x="0.0" y="73.0" />
-            </edge>
-          </edges>
-          <settings layout="Hierarchic Group" zoom="1.0" x="-221.0" y="-41.0" />
-          <SelectedNodes>
-            <node>composite.impl.Department</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/composite.impl.OutputInfo">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>composite.impl.OutputInfo</OriginalElement>
-          <nodes>
-            <node x="-59.0" y="-302.0">composite.impl.OutputInfo</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-216.0" y="-150.0" />
-          <SelectedNodes>
-            <node>composite.impl.OutputInfo</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/composite.OrganizationComponent">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>composite.OrganizationComponent</OriginalElement>
-          <nodes>
-            <node x="0.0" y="0.0">composite.OrganizationComponent</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="-221.0" y="-128.0" />
-          <SelectedNodes>
-            <node>composite.OrganizationComponent</node>
-          </SelectedNodes>
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://JAVA/composite.impl.College">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JAVA</ID>
-          <OriginalElement>composite.impl.College</OriginalElement>
-          <nodes>
-            <node x="" y="">composite.OrganizationComponent</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.1" x="200.0" y="195.0" />
-          <SelectedNodes />
-          <Categories>
-            <Category>Fields</Category>
-            <Category>Constructors</Category>
-            <Category>Methods</Category>
-            <Category>Properties</Category>
-            <Category>Inner Classes</Category>
-          </Categories>
-          <SCOPE>All</SCOPE>
-          <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompositeModel/src/main/java/composite/OrganizationComponent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="27" column="16" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ObserverModel/.classpath" />
-    <entry file="file://$PROJECT_DIR$/StrategyModel/.classpath" />
-    <entry file="file://$PROJECT_DIR$/IngredientFactory/.classpath" />
-    <entry file="file://$PROJECT_DIR$/FactoryModel/.classpath" />
-    <entry file="file://$PROJECT_DIR$/DecoratorModel/.classpath" />
-    <entry file="file://$PROJECT_DIR$/BuildModel/.classpath" />
-    <entry file="file://$PROJECT_DIR$/AdapterModel/.classpath" />
-    <entry file="file://$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/University.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="760">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/College.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="608">
-          <caret line="39" selection-start-line="39" selection-end-line="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/IteratorModel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/Department.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="34" column="84" selection-start-line="34" selection-start-column="84" selection-end-line="34" selection-end-column="84" />
-          <folding>
-            <element signature="e#480#481#0" expanded="true" />
-            <element signature="e#507#508#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#593#594#0" expanded="true" />
-            <element signature="e#654#655#0" expanded="true" />
-            <element signature="e#747#748#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/OutputInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" column="26" selection-start-line="19" selection-start-column="26" selection-end-line="19" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CompositeModel/src/test/java/CompositeTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/test/SingletonTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="28" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SingletonModel/src/main/java/bean/SingletonBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" column="46" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/bean/Bike.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/enginer/EngineeringDepartment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
-          <folding>
-            <element signature="e#301#302#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/buildInterface/impl/MoBileBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-          <folding>
-            <element signature="e#328#329#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-            <element signature="e#410#411#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#600#601#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/buildInterface/BikeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuildModel/src/main/java/buildInterface/impl/OfOBikeBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
-          <folding>
-            <element signature="e#578#579#0" expanded="true" />
-            <element signature="e#605#606#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BuildModel/src/test/java/BuildModelTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/inter/DoWorking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Coding.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Recruiting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
-          <folding>
-            <element signature="e#239#240#0" expanded="true" />
-            <element signature="e#276#277#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Auditing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding>
-            <element signature="e#236#237#0" expanded="true" />
-            <element signature="e#273#274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/Auditer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="e#274#275#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/Coder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#240#241#0" expanded="true" />
-            <element signature="e#279#280#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/AuditOr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#246#247#0" expanded="true" />
-            <element signature="e#287#288#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#272#273#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/Recruter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#285#286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/RecrutOr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#247#248#0" expanded="true" />
-            <element signature="e#290#291#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FacedModel/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateModel/src/main/java/bean/Person.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="39" selection-start-line="10" selection-start-column="39" selection-end-line="10" selection-end-column="39" />
-          <folding>
-            <element signature="e#318#319#0" expanded="true" />
-            <element signature="e#345#346#0" expanded="true" />
-            <element signature="e#385#386#0" expanded="true" />
-            <element signature="e#417#418#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#511#512#0" expanded="true" />
-            <element signature="e#541#542#0" expanded="true" />
-            <element signature="e#573#574#0" expanded="true" />
-            <element signature="e#601#602#0" expanded="true" />
-            <element signature="e#643#644#0" expanded="true" />
-            <element signature="e#677#678#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateModel/src/main/java/action/ChangeAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/TemplateModel/src/test/java/PersonChange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#398#406#0" expanded="true" />
-          </folding>
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <last-edited>designModel:war</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.5" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>Web (designModel)|Web</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>lib</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>designModel</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-                <option value="0.6" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: junit:junit:4.12</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
