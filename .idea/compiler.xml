@@ -10,12 +10,12 @@
         <module name="ObserverModel" />
         <module name="FactoryModel" />
         <module name="ProxyModel" />
-        <module name="IngredientFactory" />
+        <module name="FacedModel" />
         <module name="BuildModel" />
         <module name="IteratorModel" />
         <module name="StrategyModel" />
         <module name="TemplateModel" />
-        <module name="FacedModel" />
+        <module name="IngredientFactory" />
         <module name="SingletonModel" />
         <module name="CompositeModel" />
         <module name="DecoratorModel" />
