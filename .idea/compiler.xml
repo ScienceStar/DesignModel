@@ -2,23 +2,24 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="AdapterModel" />
-        <module name="ObserverModel" />
-        <module name="FactoryModel" />
-        <module name="ProxyModel" />
-        <module name="FacedModel" />
-        <module name="BuildModel" />
-        <module name="IteratorModel" />
-        <module name="StrategyModel" />
-        <module name="TemplateModel" />
-        <module name="IngredientFactory" />
-        <module name="SingletonModel" />
         <module name="CompositeModel" />
+        <module name="ObserverModel" />
+        <module name="IteratorModel" />
+        <module name="BuildModel" />
+        <module name="SingletonModel" />
+        <module name="IngredientFactory" />
         <module name="DecoratorModel" />
+        <module name="TemplateModel" />
+        <module name="StrategyModel" />
+        <module name="FacedModel" />
+        <module name="ProxyModel" />
+        <module name="FactoryModel" />
+        <module name="AdapterModel" />
       </profile>
     </annotationProcessing>
   </component>
