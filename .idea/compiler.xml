@@ -7,18 +7,18 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AdapterModel" />
-        <module name="BuildModel" />
-        <module name="CompositeModel" />
-        <module name="DecoratorModel" />
-        <module name="FacedModel" />
-        <module name="FactoryModel" />
-        <module name="IngredientFactory" />
-        <module name="IteratorModel" />
         <module name="ObserverModel" />
+        <module name="FactoryModel" />
         <module name="ProxyModel" />
-        <module name="SingletonModel" />
+        <module name="IngredientFactory" />
+        <module name="BuildModel" />
+        <module name="IteratorModel" />
         <module name="StrategyModel" />
         <module name="TemplateModel" />
+        <module name="FacedModel" />
+        <module name="SingletonModel" />
+        <module name="CompositeModel" />
+        <module name="DecoratorModel" />
       </profile>
     </annotationProcessing>
   </component>
