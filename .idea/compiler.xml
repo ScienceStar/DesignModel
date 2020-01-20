@@ -2,6 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -10,15 +11,15 @@
         <module name="ObserverModel" />
         <module name="FactoryModel" />
         <module name="ProxyModel" />
-        <module name="IngredientFactory" />
+        <module name="DecoratorModel" />
         <module name="BuildModel" />
         <module name="IteratorModel" />
         <module name="StrategyModel" />
         <module name="TemplateModel" />
-        <module name="FacedModel" />
+        <module name="IngredientFactory" />
         <module name="SingletonModel" />
         <module name="CompositeModel" />
-        <module name="DecoratorModel" />
+        <module name="FacedModel" />
       </profile>
     </annotationProcessing>
   </component>
