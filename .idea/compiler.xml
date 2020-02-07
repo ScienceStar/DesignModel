@@ -11,16 +11,19 @@
         <module name="ObserverModel" />
         <module name="FactoryModel" />
         <module name="ProxyModel" />
-        <module name="DecoratorModel" />
+        <module name="IngredientFactory" />
         <module name="BuildModel" />
         <module name="IteratorModel" />
         <module name="StrategyModel" />
         <module name="TemplateModel" />
-        <module name="IngredientFactory" />
+        <module name="FacedModel" />
         <module name="SingletonModel" />
         <module name="CompositeModel" />
-        <module name="FacedModel" />
+        <module name="DecoratorModel" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="kafka_cluster" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
