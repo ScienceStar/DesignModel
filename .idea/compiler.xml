@@ -2,28 +2,40 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="AdapterModel" />
-        <module name="ObserverModel" />
-        <module name="FactoryModel" />
-        <module name="ProxyModel" />
-        <module name="IngredientFactory" />
         <module name="BuildModel" />
-        <module name="IteratorModel" />
-        <module name="StrategyModel" />
-        <module name="TemplateModel" />
-        <module name="FacedModel" />
-        <module name="SingletonModel" />
         <module name="CompositeModel" />
         <module name="DecoratorModel" />
+        <module name="FacedModel" />
+        <module name="FactoryModel" />
+        <module name="IngredientFactory" />
+        <module name="IteratorModel" />
+        <module name="ObserverModel" />
+        <module name="ProxyModel" />
+        <module name="SingletonModel" />
+        <module name="StrategyModel" />
+        <module name="TemplateModel" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="kafka_cluster" target="1.8" />
+      <module name="AdapterModel" target="1.8" />
+      <module name="BuildModel" target="1.8" />
+      <module name="CompositeModel" target="1.8" />
+      <module name="DecoratorModel" target="1.8" />
+      <module name="designModel" target="1.8" />
+      <module name="FacedModel" target="1.8" />
+      <module name="FactoryModel" target="1.8" />
+      <module name="IngredientFactory" target="1.8" />
+      <module name="IteratorModel" target="1.8" />
+      <module name="ObserverModel" target="1.8" />
+      <module name="ProxyModel" target="1.8" />
+      <module name="SingletonModel" target="1.8" />
+      <module name="StrategyModel" target="1.8" />
+      <module name="TemplateModel" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

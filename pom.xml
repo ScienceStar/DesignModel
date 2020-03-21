@@ -21,7 +21,6 @@
         <module>CompositeModel</module>
         <module>IteratorModel</module>
         <module>FacedModel</module>
-      <module>kafka_cluster</module>
     </modules>
     <packaging>pom</packaging>
 
