@@ -1,9 +1,11 @@
 import bean.Auditer;
 import bean.Employee;
 import bean.Recruter;
+import bean.Victorer;
 import bean.impl.AuditOr;
 import bean.impl.Coder;
 import bean.impl.RecrutOr;
+import bean.impl.VictorOr;
 import org.junit.Test;
 
 /**
@@ -31,5 +33,11 @@ public class StrategyClient {
     public void test3(){
         Recruter recruter = new RecrutOr();
         recruter.recruting();
+    }
+
+    @Test
+    public void victor(){
+        Victorer victorer = new VictorOr();
+        victorer.service();
     }
 }
