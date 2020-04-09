@@ -1,46 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="95b7e7b2-089f-49a8-9763-59b93a647654" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator-enh.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/markdown-navigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/qaplug_profiles.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareMode.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ShareModel.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Victorer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/impl/VictorOr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Victorying.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="95b7e7b2-089f-49a8-9763-59b93a647654" name="Default" comment="策略模式实战">
+      <change afterPath="$PROJECT_DIR$/CompositeModel/src/main/java/composite/base/Base.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/Alpha.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AdapterModel/AdapterModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AdapterModel/AdapterModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuildModel/BuildModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/BuildModel/BuildModel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildModel/src/main/java/buildInterface/BikeBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/BuildModel/src/main/java/buildInterface/BikeBuilder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CompositeModel/CompositeModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CompositeModel/CompositeModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DecoratorModel/DecoratorModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DecoratorModel/DecoratorModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FacedModel/FacedModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FacedModel/FacedModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FactoryModel/FactoryModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/FactoryModel/FactoryModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IngredientFactory/IngredientFactory.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IngredientFactory/IngredientFactory.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/IteratorModel/IteratorModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/IteratorModel/IteratorModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ObserverModel/ObserverModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ObserverModel/ObserverModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProxyModel/ProxyModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/ProxyModel/ProxyModel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/College.java" beforeDir="false" afterPath="$PROJECT_DIR$/CompositeModel/src/main/java/composite/impl/College.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProxyModel/src/main/java/inter/impl/MyRemoteImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ProxyModel/src/main/java/inter/impl/MyRemoteImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SingletonModel/SingletonModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/SingletonModel/SingletonModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrategyModel/StrategyModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/StrategyModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/DoWorking.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/DoWorking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Auditing.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Auditing.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Coding.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Coding.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Recruiting.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Recruiting.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/TemplateModel/TemplateModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TemplateModel/TemplateModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/designModel.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,12 +133,12 @@
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="JUnit.StrategyClient.victor">
+  <component name="RunManager" selected="Application.Alpha">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -174,10 +146,52 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
+    <configuration name="Alpha" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="composite.impl.Alpha" />
+      <module name="CompositeModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="composite.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompositePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="CompositePattern" />
       <module name="CompositeModel" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyRemoteImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inter.impl.MyRemoteImpl" />
+      <module name="ProxyModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inter.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProxyClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="client.ProxyClient" />
+      <module name="ProxyModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -188,44 +202,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyClient.test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StrategyModel" />
+    <configuration name="SingletonTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="SingletonModel" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StrategyClient" />
-      <option name="METHOD_NAME" value="test1" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrategyClient.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StrategyModel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StrategyClient" />
+      <option name="MAIN_CLASS_NAME" value="SingletonTest" />
       <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrategyClient.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StrategyModel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StrategyClient" />
-      <option name="METHOD_NAME" value="test3" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StrategyClient.victor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StrategyModel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StrategyClient" />
-      <option name="METHOD_NAME" value="victor" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -258,19 +239,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.MyRemoteImpl" />
+      <item itemvalue="Application.ProxyClient" />
       <item itemvalue="Application.CompositePattern" />
-      <item itemvalue="JUnit.StrategyClient.test1" />
-      <item itemvalue="JUnit.StrategyClient.test2" />
-      <item itemvalue="JUnit.StrategyClient.victor" />
-      <item itemvalue="JUnit.StrategyClient.test3" />
+      <item itemvalue="JUnit.SingletonTest.test2" />
+      <item itemvalue="Application.Alpha" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StrategyClient.victor" />
-        <item itemvalue="JUnit.StrategyClient.test3" />
-        <item itemvalue="JUnit.StrategyClient.test1" />
-        <item itemvalue="JUnit.StrategyClient.test2" />
+        <item itemvalue="Application.Alpha" />
         <item itemvalue="Application.CompositePattern" />
+        <item itemvalue="Application.ProxyClient" />
+        <item itemvalue="Application.MyRemoteImpl" />
+        <item itemvalue="JUnit.SingletonTest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -313,12 +294,27 @@
       <workItem from="1584756728731" duration="1925000" />
       <workItem from="1584843493360" duration="58000" />
       <workItem from="1586267829436" duration="2096000" />
-      <workItem from="1586312693466" duration="5927000" />
+      <workItem from="1586312693466" duration="8612000" />
+      <workItem from="1586325749258" duration="1097000" />
+      <workItem from="1586339888423" duration="1217000" />
+      <workItem from="1586402763091" duration="1503000" />
     </task>
+    <task id="LOCAL-00001" summary="策略模式实战">
+      <created>1586321776680</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1586321776680</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="策略模式实战" />
+    <option name="LAST_COMMIT_MESSAGE" value="策略模式实战" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1980" y="159" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1586316499154">
@@ -329,60 +325,85 @@
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="2453" y="250" key="#com.intellij.ide.util.MemberChooser/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586317721899" />
-    <state width="1660" height="254" key="GridCell.Tab.0.bottom" timestamp="1586321727157">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state x="212" y="53" key="CommitChangelistDialog2" timestamp="1586445263135">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="212" y="53" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1586445263135" />
+    <state x="1922" y="55" key="CommitChangelistDialog2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586321776403" />
+    <state width="1640" height="269" key="GridCell.Tab.0.bottom" timestamp="1586445234482">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1240" height="371" key="GridCell.Tab.0.bottom/0.23.1280.723@0.23.1280.723" timestamp="1586268720721" />
     <state width="1240" height="33" key="GridCell.Tab.0.bottom/0.23.1280.726@0.23.1280.726" timestamp="1586272034243" />
-    <state width="1660" height="254" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586321727157" />
-    <state width="1660" height="254" key="GridCell.Tab.0.center" timestamp="1586321727155">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1640" height="269" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1586445234482" />
+    <state width="1880" height="93" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586339867592" />
+    <state width="1879" height="356" key="GridCell.Tab.0.bottom/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1586325011893" />
+    <state width="1640" height="269" key="GridCell.Tab.0.center" timestamp="1586445234480">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1240" height="371" key="GridCell.Tab.0.center/0.23.1280.723@0.23.1280.723" timestamp="1586268720720" />
     <state width="1240" height="33" key="GridCell.Tab.0.center/0.23.1280.726@0.23.1280.726" timestamp="1586272034242" />
-    <state width="1660" height="254" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586321727155" />
-    <state width="1660" height="254" key="GridCell.Tab.0.left" timestamp="1586321727154">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1640" height="269" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1586445234480" />
+    <state width="1880" height="93" key="GridCell.Tab.0.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586339867590" />
+    <state width="1879" height="356" key="GridCell.Tab.0.center/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1586325011892" />
+    <state width="1640" height="269" key="GridCell.Tab.0.left" timestamp="1586445234479">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1240" height="371" key="GridCell.Tab.0.left/0.23.1280.723@0.23.1280.723" timestamp="1586268720719" />
     <state width="1240" height="33" key="GridCell.Tab.0.left/0.23.1280.726@0.23.1280.726" timestamp="1586272034242" />
-    <state width="1660" height="254" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586321727154" />
-    <state width="1660" height="254" key="GridCell.Tab.0.right" timestamp="1586321727156">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1640" height="269" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1586445234479" />
+    <state width="1880" height="93" key="GridCell.Tab.0.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586339867590" />
+    <state width="1879" height="356" key="GridCell.Tab.0.left/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1586325011891" />
+    <state width="1640" height="269" key="GridCell.Tab.0.right" timestamp="1586445234481">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1240" height="371" key="GridCell.Tab.0.right/0.23.1280.723@0.23.1280.723" timestamp="1586268720720" />
     <state width="1240" height="33" key="GridCell.Tab.0.right/0.23.1280.726@0.23.1280.726" timestamp="1586272034242" />
-    <state width="1660" height="254" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586321727156" />
-    <state width="1879" height="356" key="GridCell.Tab.1.bottom" timestamp="1586321628265">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1640" height="269" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1586445234481" />
+    <state width="1880" height="93" key="GridCell.Tab.0.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586339867591" />
+    <state width="1879" height="356" key="GridCell.Tab.0.right/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1586325011893" />
+    <state width="1640" height="269" key="GridCell.Tab.1.bottom" timestamp="1586445234484">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1240" height="371" key="GridCell.Tab.1.bottom/0.23.1280.723@0.23.1280.723" timestamp="1586268720396" />
     <state width="1240" height="33" key="GridCell.Tab.1.bottom/0.23.1280.726@0.23.1280.726" timestamp="1586272034244" />
-    <state width="1879" height="356" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586321628265" />
-    <state width="1879" height="356" key="GridCell.Tab.1.center" timestamp="1586321628264">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1640" height="269" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1586445234484" />
+    <state width="1880" height="93" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586339867595" />
+    <state width="1879" height="356" key="GridCell.Tab.1.bottom/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1586325011896" />
+    <state width="1640" height="269" key="GridCell.Tab.1.center" timestamp="1586445234483">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1240" height="371" key="GridCell.Tab.1.center/0.23.1280.723@0.23.1280.723" timestamp="1586268720394" />
     <state width="1240" height="33" key="GridCell.Tab.1.center/0.23.1280.726@0.23.1280.726" timestamp="1586272034243" />
-    <state width="1879" height="356" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586321628264" />
-    <state width="1879" height="356" key="GridCell.Tab.1.left" timestamp="1586321628263">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1640" height="269" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1586445234483" />
+    <state width="1880" height="93" key="GridCell.Tab.1.center/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586339867594" />
+    <state width="1879" height="356" key="GridCell.Tab.1.center/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1586325011895" />
+    <state width="1640" height="269" key="GridCell.Tab.1.left" timestamp="1586445234482">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1240" height="371" key="GridCell.Tab.1.left/0.23.1280.723@0.23.1280.723" timestamp="1586268720393" />
     <state width="1240" height="33" key="GridCell.Tab.1.left/0.23.1280.726@0.23.1280.726" timestamp="1586272034243" />
-    <state width="1879" height="356" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586321628263" />
-    <state width="1879" height="356" key="GridCell.Tab.1.right" timestamp="1586321628265">
-      <screen x="1680" y="0" width="1920" height="1080" />
+    <state width="1640" height="269" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1586445234482" />
+    <state width="1880" height="93" key="GridCell.Tab.1.left/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586339867593" />
+    <state width="1879" height="356" key="GridCell.Tab.1.left/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1586325011894" />
+    <state width="1640" height="269" key="GridCell.Tab.1.right" timestamp="1586445234484">
+      <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state width="1240" height="371" key="GridCell.Tab.1.right/0.23.1280.723@0.23.1280.723" timestamp="1586268720395" />
     <state width="1240" height="33" key="GridCell.Tab.1.right/0.23.1280.726@0.23.1280.726" timestamp="1586272034244" />
-    <state width="1879" height="356" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586321628265" />
-    <state x="1949" y="0" key="SettingsEditor" timestamp="1586312829080">
+    <state width="1640" height="269" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@0.0.1680.1050" timestamp="1586445234484" />
+    <state width="1880" height="93" key="GridCell.Tab.1.right/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586339867594" />
+    <state width="1879" height="356" key="GridCell.Tab.1.right/1680.0.1920.1080/0.23.1680.1027@1680.0.1920.1080" timestamp="1586325011895" />
+    <state x="2109" y="88" key="SettingsEditor" timestamp="1586340276130">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
     <state x="179" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1586269210507" />
     <state x="179" y="23" key="SettingsEditor/0.23.1280.723@0.23.1280.723" timestamp="1586268073116" />
-    <state x="1949" y="0" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586312829080" />
+    <state x="2109" y="88" key="SettingsEditor/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586340276130" />
+    <state x="2240" y="261" key="Vcs.Push.Dialog.v2" timestamp="1586321778727">
+      <screen x="1680" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2240" y="261" key="Vcs.Push.Dialog.v2/1680.0.1920.1080/0.0.1680.1050@1680.0.1920.1080" timestamp="1586321778727" />
     <state x="2376" y="228" key="com.intellij.database.view.ui.AbstractDbRefactoringDialog" timestamp="1586321604050">
       <screen x="1680" y="0" width="1920" height="1080" />
     </state>
