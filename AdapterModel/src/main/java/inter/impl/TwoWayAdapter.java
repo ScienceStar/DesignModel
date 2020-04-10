@@ -3,6 +3,9 @@ package inter.impl;
 import inter.ITwoWayAdapter;
 import inter.ITwoWayTarget;
 
+/**
+ * @author lxc
+ */
 public class TwoWayAdapter implements ITwoWayAdapter, ITwoWayTarget {
 	
 	private ITwoWayTarget target;
