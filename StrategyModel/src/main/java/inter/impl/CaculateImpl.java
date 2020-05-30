@@ -9,7 +9,7 @@ public class CaculateImpl<T> implements ICaculate<T> {
         if (a instanceof Integer && b instanceof Integer) {
             result = ((Integer) a).intValue()+((Integer) b).intValue();
         } else if (a instanceof String && b instanceof String) {
-            result = a.toString().concat(b.toString());
+            result = a.toString().concat(" "+b.toString());
         }
         return (T) result;
     }
