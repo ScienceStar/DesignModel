@@ -6,6 +6,8 @@ import bean.impl.AuditOr;
 import bean.impl.Coder;
 import bean.impl.RecrutOr;
 import bean.impl.VictorOr;
+import inter.ICaculate;
+import inter.impl.CaculateImpl;
 import org.junit.Test;
 
 /**
@@ -39,5 +41,13 @@ public class StrategyClient {
     public void victor(){
         Victorer victorer = new VictorOr();
         victorer.service();
+    }
+
+    @Test
+    public void testCal(){
+        ICaculate<Integer> caculate = new CaculateImpl<Integer>();
+        ICaculate<String> caculate2 = new CaculateImpl<String>();
+        System.out.println(caculate.getResult(3,8));
+        System.out.println(caculate2.getResult("welcome","china"));
     }
 }
