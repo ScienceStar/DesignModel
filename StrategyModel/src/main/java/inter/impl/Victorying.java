@@ -12,7 +12,7 @@ import inter.DoWorking;
 public class Victorying implements DoWorking {
     @Override
     public void comeOn() {
-
+        System.out.println("我将于5分钟过来!");
     }
 
     @Override
