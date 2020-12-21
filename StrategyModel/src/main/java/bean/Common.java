@@ -8,5 +8,5 @@ package bean;
  * @Version V1.0
  **/
 public interface Common {
-    String eat();
+    String eat(String food);
 }

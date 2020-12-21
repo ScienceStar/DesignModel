@@ -5,18 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="89419168-3b32-4707-aa9a-5c62380f9cd6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Common.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/enm/AnimalEnum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/designModel.iml" beforeDir="false" afterPath="$PROJECT_DIR$/designModel.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AdapterModel/AdapterModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuildModel/BuildModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CompositeModel/CompositeModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/DecoratorModel/DecoratorModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FacedModel/FacedModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/FactoryModel/FactoryModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IngredientFactory/IngredientFactory.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/IteratorModel/IteratorModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ObserverModel/ObserverModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProxyModel/ProxyModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SingletonModel/SingletonModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrategyModel/StrategyModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Common.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Common.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/enm/AnimalEnum.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/enm/AnimalEnum.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TemplateModel/TemplateModel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/designModel.iml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
   </component>
   <component name="DefaultGradleProjectSettings">
     <option name="testRunner" value="GRADLE" />
@@ -38,31 +51,51 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
   <component name="ProjectId" id="1U60yx5GYt7c251IYNHiEQom96H" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="go.import.settings.migrated" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="ics" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,6 +119,16 @@
       <option name="USE_OPTIONS" value="false" />
       <option name="OPTIONS" value="" />
       <method v="2" />
+    </configuration>
+    <configuration name="StrategyClient.testEmum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="StrategyModel" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="StrategyClient" />
+      <option name="METHOD_NAME" value="testEmum" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="AdapterModel" />
@@ -228,7 +271,13 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StrategyClient.testEmum" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -242,11 +291,12 @@
       <workItem from="1554612910554" duration="245000" />
       <workItem from="1555252228716" duration="428000" />
       <workItem from="1574661998299" duration="440000" />
+      <workItem from="1608530474708" duration="1490000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">

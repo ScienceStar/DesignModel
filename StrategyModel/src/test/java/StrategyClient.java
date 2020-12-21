@@ -2,6 +2,7 @@ import bean.Auditer;
 import bean.Employee;
 import bean.Recruter;
 import bean.Victorer;
+import bean.enm.AnimalEnum;
 import bean.enm.Method;
 import bean.impl.AuditOr;
 import bean.impl.Coder;
@@ -65,5 +66,8 @@ public class StrategyClient {
     public void testEmum(){
         String parm1= Method.Get.getValue();
         System.out.println(parm1);
+
+        String foods = AnimalEnum.CAT.eat("fish");
+        System.out.println(foods);
     }
 }
