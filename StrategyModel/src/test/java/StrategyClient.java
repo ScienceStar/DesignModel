@@ -2,6 +2,7 @@ import bean.Auditer;
 import bean.Employee;
 import bean.Recruter;
 import bean.Victorer;
+import bean.enm.Method;
 import bean.impl.AuditOr;
 import bean.impl.Coder;
 import bean.impl.RecrutOr;
@@ -49,5 +50,20 @@ public class StrategyClient {
         ICaculate<String> caculate2 = new CaculateImpl<String>();
         System.out.println(caculate.getResult(3,8));
         System.out.println(caculate2.getResult("welcome","china"));
+    }
+
+    @Test
+    public void testConvert(){
+        int a=3,b=4;
+        a+=b;
+        b=a-b;
+        a-=b;
+        System.out.println(a+"    "+b);
+    }
+
+    @Test
+    public void testEmum(){
+        String parm1= Method.Get.getValue();
+        System.out.println(parm1);
     }
 }

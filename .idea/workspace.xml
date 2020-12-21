@@ -3,13 +3,18 @@
   <component name="AnalysisUIOptions">
     <option name="GROUP_BY_SEVERITY" value="true" />
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="95b7e7b2-089f-49a8-9763-59b93a647654" name="Default" comment="策略模式实战">
-      <change afterPath="$PROJECT_DIR$/IngredientFactory/src/main/java/inter/impl/bean/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/IngredientFactory/src/test/java/TestKnowledge.java" afterDir="false" />
+    <list default="true" id="95b7e7b2-089f-49a8-9763-59b93a647654" name="Default" comment="策略模式修改">
+      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/NotifyMechanismInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/enm/Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/enm/NotifyType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/StrategyModel/src/test/java/NotifyService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Victorer.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/bean/Victorer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Victorying.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/src/main/java/inter/impl/Victorying.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/StrategyModel/src/test/java/StrategyClient.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +41,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Enum" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -46,18 +52,16 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
+  <component name="KubernetesApiPersistence">
+    <option name="context" value="docker-desktop" />
+    <option name="namespace" value="default" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$USER_HOME$/Public/data" />
-        <option name="mavenHome" value="$USER_HOME$/Public/maven/apache-maven-3.6.2" />
         <option name="userSettingsFile" value="$USER_HOME$/Public/maven/apache-maven-3.6.1/conf/settings.xml" />
       </MavenGeneralSettings>
-    </option>
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
     </option>
   </component>
   <component name="ProjectCodeStyleSettingsMigration">
@@ -81,17 +85,19 @@
     <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RebelAgentSelection">
     <selection>jr</selection>
   </component>
-  <component name="RunManager" selected="JUnit.StrategyClient.victor">
+  <component name="RunManager" selected="Application.NotifyService">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -99,48 +105,51 @@
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
+    <configuration name="NotifyService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="NotifyService" />
+      <module name="StrategyModel" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyClient.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="StrategyModel" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="StrategyClient" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyClient.test3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StrategyClient.testConvert" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StrategyModel" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StrategyClient" />
-      <option name="METHOD_NAME" value="test3" />
+      <option name="METHOD_NAME" value="testConvert" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StrategyClient.testCal" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StrategyClient.testEmum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="StrategyModel" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="StrategyClient" />
-      <option name="METHOD_NAME" value="testCal" />
+      <option name="METHOD_NAME" value="testEmum" />
       <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea -XX:+PrintFlagsFinal -XX:+PrintGC -XX:+HeapDumpOnOutOfMemoryError -XX:HeapDumpPath=/tmp/heapdump.hprof" />
-      <option name="PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="StrategyClient.victor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -152,7 +161,6 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="TestKnowledge.testNullAble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -164,7 +172,6 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -172,7 +179,6 @@
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="BSP.BeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration name="远程调试" type="Remote">
@@ -203,23 +209,24 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.StrategyClient.testCal" />
       <item itemvalue="JUnit.StrategyClient.victor" />
-      <item itemvalue="JUnit.StrategyClient.test3" />
-      <item itemvalue="JUnit.StrategyClient.test2" />
       <item itemvalue="JUnit.TestKnowledge.testNullAble" />
-      <item itemvalue="Remote.远程调试" />
+      <item itemvalue="JUnit.StrategyClient.testConvert" />
+      <item itemvalue="Remote JVM Debug.远程调试" />
+      <item itemvalue="JUnit.StrategyClient.testEmum" />
+      <item itemvalue="Application.NotifyService" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotifyService" />
+        <item itemvalue="JUnit.StrategyClient.testEmum" />
+        <item itemvalue="JUnit.StrategyClient.testConvert" />
         <item itemvalue="JUnit.StrategyClient.victor" />
         <item itemvalue="JUnit.TestKnowledge.testNullAble" />
-        <item itemvalue="JUnit.StrategyClient.testCal" />
-        <item itemvalue="JUnit.StrategyClient.test2" />
-        <item itemvalue="JUnit.StrategyClient.test3" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
   </component>
@@ -272,7 +279,9 @@
       <workItem from="1599325468184" duration="215000" />
       <workItem from="1599330726431" duration="718000" />
       <workItem from="1599386658292" duration="613000" />
-      <workItem from="1599614739147" duration="1925000" />
+      <workItem from="1599614739147" duration="2551000" />
+      <workItem from="1599744690971" duration="325000" />
+      <workItem from="1608518444346" duration="2401000" />
     </task>
     <task id="LOCAL-00001" summary="策略模式实战">
       <created>1586321776680</created>
@@ -323,86 +332,23 @@
       <option name="project" value="LOCAL" />
       <updated>1590821100203</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="策略模式修改">
+      <created>1599616959111</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1599616959111</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="策略模式实战" />
-    <option name="LAST_COMMIT_MESSAGE" value="策略模式实战" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="704" y="368" key="#Notifications" timestamp="1591250794465">
-      <screen x="0" y="23" width="1680" height="981" />
-    </state>
-    <state x="704" y="368" key="#Notifications/1680.23.1920.1057/0.23.1680.981@0.23.1680.981" timestamp="1591250794465" />
-    <state x="200" y="118" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599325544836">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="200" y="118" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.800@0.0.1280.800" timestamp="1599325544836" />
-    <state x="515" y="117" key="#com.intellij.ide.util.MemberChooser" timestamp="1595178104299">
-      <screen x="0" y="23" width="1280" height="728" />
-    </state>
-    <state x="515" y="117" key="#com.intellij.ide.util.MemberChooser/0.23.1280.728@0.23.1280.728" timestamp="1595178104299" />
-    <state width="1878" height="310" key="GridCell.Tab.0.bottom" timestamp="1599616924123">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1240" height="212" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595179413103" />
-    <state width="1240" height="212" key="GridCell.Tab.0.bottom/0.23.1280.728@0.23.1280.728" timestamp="1595180522351" />
-    <state width="1878" height="310" key="GridCell.Tab.0.bottom/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1599616924123" />
-    <state width="1878" height="310" key="GridCell.Tab.0.center" timestamp="1599616924120">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1240" height="212" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1595179413101" />
-    <state width="1240" height="212" key="GridCell.Tab.0.center/0.23.1280.728@0.23.1280.728" timestamp="1595180522350" />
-    <state width="1878" height="310" key="GridCell.Tab.0.center/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1599616924120" />
-    <state width="1878" height="310" key="GridCell.Tab.0.left" timestamp="1599616924118">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1240" height="212" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1595179413099" />
-    <state width="1240" height="212" key="GridCell.Tab.0.left/0.23.1280.728@0.23.1280.728" timestamp="1595180522349" />
-    <state width="1878" height="310" key="GridCell.Tab.0.left/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1599616924118" />
-    <state width="1878" height="310" key="GridCell.Tab.0.right" timestamp="1599616924122">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1240" height="212" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1595179413102" />
-    <state width="1240" height="212" key="GridCell.Tab.0.right/0.23.1280.728@0.23.1280.728" timestamp="1595180522350" />
-    <state width="1878" height="310" key="GridCell.Tab.0.right/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1599616924122" />
-    <state width="1878" height="310" key="GridCell.Tab.1.bottom" timestamp="1599616924128">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1240" height="212" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1595179412774" />
-    <state width="1240" height="212" key="GridCell.Tab.1.bottom/0.23.1280.728@0.23.1280.728" timestamp="1595180522353" />
-    <state width="1878" height="310" key="GridCell.Tab.1.bottom/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1599616924128" />
-    <state width="1878" height="310" key="GridCell.Tab.1.center" timestamp="1599616924126">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1240" height="212" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1595179412771" />
-    <state width="1240" height="212" key="GridCell.Tab.1.center/0.23.1280.728@0.23.1280.728" timestamp="1595180522352" />
-    <state width="1878" height="310" key="GridCell.Tab.1.center/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1599616924126" />
-    <state width="1878" height="310" key="GridCell.Tab.1.left" timestamp="1599616924124">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1240" height="212" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1595179412770" />
-    <state width="1240" height="212" key="GridCell.Tab.1.left/0.23.1280.728@0.23.1280.728" timestamp="1595180522352" />
-    <state width="1878" height="310" key="GridCell.Tab.1.left/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1599616924124" />
-    <state width="1878" height="310" key="GridCell.Tab.1.right" timestamp="1599616924127">
-      <screen x="1280" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1240" height="212" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1595179412773" />
-    <state width="1240" height="212" key="GridCell.Tab.1.right/0.23.1280.728@0.23.1280.728" timestamp="1595180522353" />
-    <state width="1878" height="310" key="GridCell.Tab.1.right/1280.0.1920.1080/0.0.1280.800@1280.0.1920.1080" timestamp="1599616924127" />
-    <state x="288" y="49" key="NewModule_or_Project.wizard" timestamp="1599386825599">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="288" y="49" key="NewModule_or_Project.wizard/0.0.1280.800@0.0.1280.800" timestamp="1599386825599" />
-    <state x="378" y="166" key="NewModule_or_Project.wizard/1680.23.1920.1004/0.23.1680.1027@0.23.1680.1027" timestamp="1591247767432" />
-    <state x="179" y="0" width="1325" height="722" key="SettingsEditor" timestamp="1599330817393">
-      <screen x="0" y="0" width="1280" height="800" />
-    </state>
-    <state x="179" y="0" key="SettingsEditor/0.0.1280.800@0.0.1280.800" timestamp="1599330817393" />
+    <MESSAGE value="策略模式修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="策略模式修改" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
