@@ -13,4 +13,9 @@ public class Auditing implements DoWorking {
     public void comeOn() {
         System.out.println("正在审计................." );
     }
+
+    @Override
+    public void doSth() {
+
+    }
 }

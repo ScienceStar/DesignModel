@@ -29,9 +29,9 @@ public class Department extends OrganizationComponent {
         return description;
     }
 
-    // 叶子只需要输出自己的信息
+    //叶子只需要输出自己的信息
     @Override
     public void print() {
-        System.out.println(getName()+"-----------------------"+this.getDescription());
+        System.out.println(getName() + "-----------------------" + this.getDescription());
     }
 }

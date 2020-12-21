@@ -21,7 +21,7 @@ public class MyRemoteImpl extends UnicastRemoteObject implements MyRemote {
     @Override
     public String request(int money) {
         System.out.println("充值" + money + "元话费成功");
-        return "充值成功";
+        return "充值话费:"+money+"元话费成功!";
     }
 
     public static void main(String[] args) {

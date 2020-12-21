@@ -22,5 +22,21 @@
         <module name="AdapterModel" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="AdapterModel" target="1.8" />
+      <module name="BuildModel" target="1.8" />
+      <module name="CompositeModel" target="1.8" />
+      <module name="DecoratorModel" target="1.8" />
+      <module name="designModel" target="1.8" />
+      <module name="FacedModel" target="1.8" />
+      <module name="FactoryModel" target="1.8" />
+      <module name="IngredientFactory" target="1.8" />
+      <module name="IteratorModel" target="1.8" />
+      <module name="ObserverModel" target="1.8" />
+      <module name="ProxyModel" target="1.8" />
+      <module name="SingletonModel" target="1.8" />
+      <module name="StrategyModel" target="1.8" />
+      <module name="TemplateModel" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>

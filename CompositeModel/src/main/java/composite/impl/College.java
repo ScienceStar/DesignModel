@@ -22,7 +22,10 @@ public class College extends OrganizationComponent {
         this.description = description;
     }
 
-    // 重写机构组件的方法，其作为树有增加和删除方法
+    /**
+     * 重写机构组件的方法，其作为树有增加和删除方法
+     * @param organizationComponent
+     */
     @Override
     public void add(OrganizationComponent organizationComponent) {
         organizationComponents.add(organizationComponent);

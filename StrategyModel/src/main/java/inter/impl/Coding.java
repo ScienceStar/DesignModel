@@ -13,4 +13,9 @@ public class Coding implements DoWorking {
     public void comeOn() {
         System.out.println("正在编码..............." );
     }
+
+    @Override
+    public void doSth() {
+
+    }
 }

@@ -1,6 +1,5 @@
 package bean;
 
-
 import lombok.Data;
 
 /**

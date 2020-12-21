@@ -14,12 +14,12 @@ public class TestAdapter {
 
     @Test
     public void testAdapter() {
-        System.out.println("-----鹦鹉会叫也会飞-----");
+        System.out.printf("%s\n","-----鹦鹉会叫也会飞-----");
         Bird parrot = new Parrot( );
         parrot.chirp( );
         parrot.fly( );
 
-        System.out.println("-----鹅会叫但不会飞-----");
+        System.out.printf("%s\n","-----鹅会叫但不会飞-----");
         Goose goose = new Goose( );
         Bird gooseAdapter = new GooseAdapter(goose);
         gooseAdapter.chirp( );

@@ -11,7 +11,7 @@ import buildInterface.BikeBuilder;
  */
 public class MoBileBuilder implements BikeBuilder {
 
-    private Bike bike = new Bike();
+    private final Bike bike = new Bike();
     @Override
     public void buildType() {
         bike.setType("橙色轮胎");

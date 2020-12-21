@@ -10,4 +10,6 @@ package inter;
 public interface DoWorking {
 
     void comeOn();
+
+    void doSth();
 }
