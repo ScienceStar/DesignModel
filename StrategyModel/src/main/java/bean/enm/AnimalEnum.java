@@ -39,6 +39,7 @@ public enum AnimalEnum implements Common {
     private String name;
     private Integer weitht;
     private Integer weitht2;
+    private Integer weitht3;
     AnimalEnum(String name, int i,String food) {
         this.name=name;
         this.weitht=i;
