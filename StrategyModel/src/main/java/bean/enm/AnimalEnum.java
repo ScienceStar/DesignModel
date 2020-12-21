@@ -15,15 +15,23 @@ public enum AnimalEnum implements Common {
        public String eat(String food) {
            return PANDA.fd;
        }
-   },DOG("DOG",22,"骨头"){
+   },
+    DOG("DOG",22,"骨头"){
         @Override
         public String eat(String food) {
             return DOG.fd;
         }
-    },CAT("CAT",23, "鱼"){
+    },
+    CAT("CAT",23, "鱼"){
         @Override
         public String eat(String food) {
             return CAT.fd;
+        }
+    },
+    PIG("PIG",23, "红薯"){
+        @Override
+        public String eat(String food) {
+            return PIG.fd;
         }
     }
     ;
