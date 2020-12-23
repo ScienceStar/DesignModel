@@ -16,6 +16,6 @@ public class Recruiting implements DoWorking {
 
     @Override
     public void doSth() {
-
+        System.out.println("我正在招聘......");
     }
 }
