@@ -1,7 +1,6 @@
 package adapter;
 
 import inter.Target;
-import inter.impl.Adapter;
 import inter.impl.ObjectAdapter;
 
 public class ObjectAdapterTest {

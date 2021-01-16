@@ -1,4 +1,4 @@
-package inter.impl;
+package adapter;
 
 import inter.Bird;
 
@@ -10,7 +10,7 @@ import java.rmi.Remote;
  * @author: liuxincheng
  * @create: 2019-04-02 13:41
  */
-public class Parrot implements Bird {
+public class Parrot implements Bird{
     @Override
     public void chirp() {
         System.out.println("呜呜呜............");

@@ -1,7 +1,7 @@
 package adapter;
 
 import inter.Bird;
-import inter.impl.Goose;
+import adapter.Goose;
 
 /**
  * @program: designModel

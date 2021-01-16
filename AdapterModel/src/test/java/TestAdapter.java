@@ -1,7 +1,8 @@
 import adapter.GooseAdapter;
+import adapter.ParrotAdapter;
 import inter.Bird;
-import inter.impl.Goose;
-import inter.impl.Parrot;
+import adapter.Goose;
+import adapter.Parrot;
 import org.junit.Test;
 
 /**
@@ -15,9 +16,10 @@ public class TestAdapter {
     @Test
     public void testAdapter() {
         System.out.printf("%s\n","-----鹦鹉会叫也会飞-----");
-        Bird parrot = new Parrot( );
-        parrot.chirp( );
-        parrot.fly( );
+        Parrot parrot = new Parrot( );
+        Bird parrotAdapter = new ParrotAdapter(parrot);
+        parrotAdapter.chirp( );
+        parrotAdapter.fly( );
 
         System.out.printf("%s\n","-----鹅会叫但不会飞-----");
         Goose goose = new Goose( );
