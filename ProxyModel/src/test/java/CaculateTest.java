@@ -5,6 +5,8 @@ import org.junit.Test;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
+import java.util.Arrays;
+import java.util.List;
 
 /**
  * @ClassName CaculateTest
@@ -44,5 +46,13 @@ public class CaculateTest {
         int num1=cal.add(3,5);
         int num2=cal.mul(8,2);
         System.out.println(num1+"   "+num2);
+    }
+
+    @Test
+    public void foreachList(){
+        List<String> names = Arrays.asList("tom","mike","peter");
+        names.forEach(name->{
+            System.out.println(name);
+        });
     }
 }
