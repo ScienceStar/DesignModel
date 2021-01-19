@@ -29,8 +29,12 @@ public class ParrotAdapter implements Bird {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o) return true;
-        if (!(o instanceof ParrotAdapter)) return false;
+        if (this == o) {
+            return true;
+        }
+        if (!(o instanceof ParrotAdapter)) {
+            return false;
+        }
         ParrotAdapter that = (ParrotAdapter) o;
         return Objects.equals(parrot, that.parrot);
     }
