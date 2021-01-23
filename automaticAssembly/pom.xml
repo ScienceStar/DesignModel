@@ -7,7 +7,7 @@
   <groupId>com.project</groupId>
   <artifactId>automaticAssembly</artifactId>
   <version>1.0-SNAPSHOT</version>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
 
   <name>automaticAssembly Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
@@ -61,6 +61,16 @@
       <groupId>io.mateu</groupId>
       <artifactId>lombok</artifactId>
       <version>1.18.11.97</version>
+    </dependency>
+    <dependency>
+      <groupId>org.mybatis.spring.boot</groupId>
+      <artifactId>mybatis-spring-boot-starter</artifactId>
+      <version>2.1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.springframework</groupId>
+      <artifactId>spring-context</artifactId>
+      <version>5.2.6.RELEASE</version>
     </dependency>
   </dependencies>
 

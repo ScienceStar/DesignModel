@@ -1,19 +1,23 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="automaticAssembly:war exploded">
-    <output-path>$PROJECT_DIR$/automaticAssembly/target/automaticAssembly</output-path>
+  <artifact type="exploded-war" name="AssemblyDemo:war exploded">
+    <output-path>$PROJECT_DIR$/AssemblyDemo/target/AssemblyDemo</output-path>
     <properties id="maven-jee-properties">
       <options>
         <exploded>true</exploded>
-        <module>automaticAssembly</module>
+        <module>AssemblyDemo</module>
         <packaging>war</packaging>
       </options>
     </properties>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="automaticAssembly" />
+          <element id="module-output" name="AssemblyDemo" />
         </element>
         <element id="directory" name="lib">
+          <element id="archive" name="automaticAssembly-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="automaticAssembly" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter:2.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot:2.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-autoconfigure:2.3.4.RELEASE" />
@@ -25,10 +29,6 @@
           <element id="library" level="project" name="Maven: org.slf4j:jul-to-slf4j:1.7.30" />
           <element id="library" level="project" name="Maven: jakarta.annotation:jakarta.annotation-api:1.3.5" />
           <element id="library" level="project" name="Maven: org.yaml:snakeyaml:1.26" />
-          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.30" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-web:2.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-json:2.3.4.RELEASE" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.11.2" />
           <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.11.2" />
@@ -45,23 +45,26 @@
           <element id="library" level="project" name="Maven: io.mateu:lombok:1.18.11.97" />
           <element id="library" level="project" name="Maven: io.mateu:prelombok:1.18.11.96" />
           <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-starter:2.1.2" />
-          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.3.4.RELEASE" />
-          <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:3.4.5" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.2.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework.boot:spring-boot-starter-jdbc:2.2.5.RELEASE" />
+          <element id="library" level="project" name="Maven: com.zaxxer:HikariCP:3.4.2" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jdbc:5.2.4.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-tx:5.2.4.RELEASE" />
           <element id="library" level="project" name="Maven: org.mybatis.spring.boot:mybatis-spring-boot-autoconfigure:2.1.2" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis:3.5.4" />
           <element id="library" level="project" name="Maven: org.mybatis:mybatis-spring:2.0.4" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:5.2.6.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.9.RELEASE" />
-          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.9.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-aop:5.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-beans:5.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-core:5.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-jcl:5.2.6.RELEASE" />
+          <element id="library" level="project" name="Maven: org.springframework:spring-expression:5.2.6.RELEASE" />
         </element>
       </element>
       <element id="directory" name="META-INF">
-        <element id="file-copy" path="$PROJECT_DIR$/automaticAssembly/target/automaticAssembly/META-INF/MANIFEST.MF" />
+        <element id="file-copy" path="$PROJECT_DIR$/AssemblyDemo/target/AssemblyDemo/META-INF/MANIFEST.MF" />
       </element>
-      <element id="javaee-facet-resources" facet="automaticAssembly/web/Web" />
+      <element id="javaee-facet-resources" facet="AssemblyDemo/web/Web" />
     </root>
   </artifact>
 </component>
