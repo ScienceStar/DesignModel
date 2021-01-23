@@ -1,12 +1,13 @@
+import inter.IAnazy;
 import inter.ICaculate;
+import inter.impl.AnazyImpl;
 import inter.impl.CaculateImpl;
 import inter.impl.LogInterceptor;
 import org.junit.Test;
 
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 /**
  * @ClassName CaculateTest
@@ -51,8 +52,26 @@ public class CaculateTest {
     @Test
     public void foreachList(){
         List<String> names = Arrays.asList("tom","mike","peter");
-        names.forEach(name->{
+        int num = add(3, 8);
+        List<String> stringList = Arrays.asList("a", "b", "c");
+        for (String name : names) {
             System.out.println(name);
-        });
+        }
+    }
+
+    public int add(int a,int b){
+        return a+b;
+    }
+
+    @Test
+    public void testAnazy(){
+        IAnazy anazy = new AnazyImpl();
+        int result = anazy.add(3, 8);
+        System.out.println(result);
+        HashMap<Object, Object> hashMap = new HashMap<>();
+        List<String> stringList = new ArrayList<String>();
+        Set<String> stringSet = new HashSet<String>();
+        int num = this.add(3, 8);
+        System.out.println(num);
     }
 }
