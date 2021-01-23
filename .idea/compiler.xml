@@ -16,6 +16,7 @@
         <module name="TemplateModel" />
         <module name="IteratorModel" />
         <module name="AdapterModel" />
+        <module name="automaticAssembly" />
         <module name="CompositeModel" />
         <module name="BuildModel" />
         <module name="StrategyModel" />
@@ -24,6 +25,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="AdapterModel" target="1.8" />
+      <module name="automaticAssembly" target="1.8" />
       <module name="BuildModel" target="1.8" />
       <module name="CompositeModel" target="1.8" />
       <module name="DecoratorModel" target="1.8" />
@@ -38,5 +40,10 @@
       <module name="StrategyModel" target="1.8" />
       <module name="TemplateModel" target="1.8" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="automaticAssembly" options="-parameters" />
+    </option>
   </component>
 </project>

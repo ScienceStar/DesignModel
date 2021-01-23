@@ -5,29 +5,21 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.project</groupId>
-  <artifactId>designModel</artifactId>
+  <artifactId>automaticAssembly</artifactId>
   <version>1.0-SNAPSHOT</version>
-    <modules>
-        <module>SingletonModel</module>
-        <module>BuildModel</module>
-        <module>StrategyModel</module>
-        <module>ObserverModel</module>
-        <module>DecoratorModel</module>
-        <module>FactoryModel</module>
-        <module>IngredientFactory</module>
-        <module>AdapterModel</module>
-        <module>ProxyModel</module>
-        <module>TemplateModel</module>
-        <module>CompositeModel</module>
-        <module>IteratorModel</module>
-        <module>FacedModel</module>
-      <module>automaticAssembly</module>
-    </modules>
-    <packaging>pom</packaging>
+  <packaging>war</packaging>
 
-  <name>designModel Maven Webapp</name>
+  <name>automaticAssembly Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
+
+  <!-- 父级项目 -->
+  <parent>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-parent</artifactId>
+    <version>2.3.4.RELEASE</version>
+    <relativePath/> <!-- lookup parent from repository -->
+  </parent>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -36,21 +28,44 @@
   </properties>
 
   <dependencies>
+    <!-- 测试 -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-test</artifactId>
+      <scope>test</scope>
+    </dependency>
+    <!-- springmvc -->
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-web</artifactId>
+    </dependency>
+    <!--&lt;!&ndash; jpa(持久层) &ndash;&gt;
+    <dependency>
+      <groupId>org.springframework.boot</groupId>
+      <artifactId>spring-boot-starter-data-jpa</artifactId>
+    </dependency>
+    &lt;!&ndash; mysql(数据库) &ndash;&gt;
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <scope>runtime</scope>
+    </dependency>-->
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.12</version>
+      <version>4.11</version>
+      <scope>test</scope>
     </dependency>
+    <!-- https://mvnrepository.com/artifact/io.mateu/lombok -->
     <dependency>
-      <groupId>org.projectlombok</groupId>
+      <groupId>io.mateu</groupId>
       <artifactId>lombok</artifactId>
-      <version>1.18.10</version>
-      <scope>provided</scope>
+      <version>1.18.11.97</version>
     </dependency>
   </dependencies>
 
   <build>
-    <finalName>designModel</finalName>
+    <finalName>automaticAssembly</finalName>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
       <plugins>
         <plugin>
